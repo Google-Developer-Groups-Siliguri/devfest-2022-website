@@ -1,5 +1,5 @@
 import Faq from "./components/Faq";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
