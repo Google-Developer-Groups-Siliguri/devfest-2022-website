@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheet/NavBar.css";
+import "../stylesheet/Faq.css";
 const schemeFaq = [
     {
         id: 1,
