@@ -1,0 +1,19 @@
+.btn-df{
+    color: white;
+    background-color: #4387F6;
+    width: 26%;
+    margin: 10px 0;
+    font-size: 16px;
+    height: 40px;
+    padding: 0;
+    border-radius: 3px;
+}
+.btn-df:hover{
+    color: white;
+    background-color: #0c65f4;
+}
+@media(max-width:560px) {
+    .btn-df{
+        width: 100%;
+    }
+}

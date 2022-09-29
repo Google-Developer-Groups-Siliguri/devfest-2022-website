@@ -3,8 +3,8 @@
     padding: 0px;
 }
 #navbar-logo{
-    width: 300px;
-    height:44px;
+    width: 220px;
+    height:60px;
 }
 .nav-link{
     margin: 17px;
@@ -17,8 +17,8 @@
 }
 @media(max-width:475px){
     #navbar-logo{
-        width: 255px;
-        height:44px;
+        width: 210px;
+        height:60px;
         margin:0px !important;
     }
 }
