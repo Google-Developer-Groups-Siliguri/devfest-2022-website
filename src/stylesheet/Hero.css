@@ -1,0 +1,29 @@
+.hero{
+    margin: 40px 140px 0;
+}
+.logo{
+    width: 283px;
+    height: 62px;
+    margin: 15px 0;
+}
+.lead{
+    color:#5D7688;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+.lead-2{
+    color:#83888C;
+    margin-bottom: 7px;
+}
+.monuments-img{
+   width: 100%;
+}
+@media(max-width:985px) {
+    .hero{
+        margin:  10px;
+    }
+    #timer{
+        margin-top: 20px;
+    }
+}

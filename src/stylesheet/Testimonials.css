@@ -1,0 +1,40 @@
+.testimonials-container{
+    background: #EDF3FF;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+}
+
+.testimonials-title{
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #4387F6;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.title h1{
+    font-size: 3rem;
+    margin: 0rem;
+}
+
+.message{
+    padding-left: 18rem;
+    width: 85%;
+}
+
+.scratch{
+    padding-left: 2rem;
+    width: 35%;
+}
