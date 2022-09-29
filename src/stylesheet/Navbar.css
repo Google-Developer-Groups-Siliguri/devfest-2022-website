@@ -1,0 +1,24 @@
+.navbar{
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+    padding: 0px;
+}
+#navbar-logo{
+    width: 300px;
+    height:44px;
+}
+.nav-link{
+    margin: 17px;
+    color: #6A6E71;
+    height: 80%;
+}
+.nav-link.active{
+    color:#4387F6;
+    border-bottom: 5px solid #4387F6;
+}
+@media(max-width:475px){
+    #navbar-logo{
+        width: 255px;
+        height:44px;
+        margin:0px !important;
+    }
+}
