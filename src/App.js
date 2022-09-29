@@ -1,8 +1,11 @@
+import Faq from "./components/Faq";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <h1> DevFest Dev branch </h1>
+      <NavBar />
+      <Faq />
     </div>
   );
 }
