@@ -1,0 +1,102 @@
+.heading {
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+#faq {
+    min-height: 0vh;
+    padding: 0px;
+}
+
+.faqcontainer {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+#faqmenulinks {
+    padding: 1vh;
+}
+
+.bgcolor {
+    background-color: #E9F1FF !important;
+}
+
+.parafix {
+    background-color: #E9F1FF !important;
+    padding-left: 2cm;
+}
+
+.faqcardheading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.faqmenu {
+    max-width: fit-content;
+    background-color: #E9F1FF;
+    border-radius: 10px;
+    height: auto;
+    margin: 1vh;
+    padding: 1vh;
+    font-weight: bold;
+}
+
+#faiconcolorfaqdrop {
+    color: #000000;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#faiconcolorfaqdrop:hover {
+    color: #FF6D00;
+}
+
+.menuactive {
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    height: auto;
+    min-height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.normalmenuactive {
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    height: auto;
+    min-height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #679FFA;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+/* button.accordion-button[aria-expanded*=false] {
+    color: black;
+    background-color: #FFB27D;
+}
+button.accordion-button[aria-expanded*=true] {
+    color: black;
+    background-color: white;
+} */
+.accordion-button:focus {
+    border-color: none;
+}
