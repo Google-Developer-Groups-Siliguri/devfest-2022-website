@@ -64,63 +64,40 @@ class Speakers extends React.Component {
 }
 
 function MoreSpeakers() {
+  const speakerData =[
+    {
+      src:'../assets/images/speaker1',
+      speakerName:"Abhilasha Gupta",
+      spekerPost:"Software Engineer",
+      speakerProfile:"View Profile",
+    },
+    {
+      speakerImage:{s1},
+      speakerName:"Abhilasha Gupta",
+      spekerPost:"Software Engineer",
+      speakerProfile:"View Profile",
+    },
+    {
+      speakerImage:{s1},
+      speakerName:"Abhilasha Gupta",
+      spekerPost:"Software Engineer",
+      speakerProfile:"View Profile",
+    },
+  ]
+
   return (
-    
     <div className="speakers">
-      <div className="speaker-card">
-        <img src={s1} alt="" />
-        <p className="speaker-name">Abhilasha Gupta</p>
-        <p className="speaker-post">Software Developer</p>
+      {speakerData.map((item,key)=>(
+        <div key={item.id} className="speaker-card" >
+        <img src={item.src} alt="" />
+        <p className="speaker-name">{item.speakerName}</p>
+        <p className="speaker-post">{item.spekerPost}</p>
         <br />
-        <a href="">
+        <a href={item.speakerProfile}>
           <p className="speaker-profile">View profile</p>
         </a>
       </div>
-      <div className="speaker-card">
-        <img src={s2} alt="" />
-        <p className="speaker-name">Abhilasha Gupta</p>
-        <p className="speaker-post">Software Developer</p>
-        <br />
-        <a href="">
-          <p className="speaker-profile">View profile</p>
-        </a>
-      </div>
-      <div className="speaker-card">
-        <img src={s3} alt="" />
-        <p className="speaker-name">Abhilasha Gupta</p>
-        <p className="speaker-post">Software Developer</p>
-        <br />
-        <a href="">
-          <p className="speaker-profile">View profile</p>
-        </a>
-      </div>
-      <div className="speaker-card">
-        <img src={s1} alt="" />
-        <p className="speaker-name">Abhilasha Gupta</p>
-        <p className="speaker-post">Software Developer</p>
-        <br />
-        <a href="">
-          <p className="speaker-profile">View profile</p>
-        </a>
-      </div>
-      <div className="speaker-card">
-        <img src={s4} alt="" />
-        <p className="speaker-name">Abhilasha Gupta</p>
-        <p className="speaker-post">Software Developer</p>
-        <br />
-        <a href="">
-          <p className="speaker-profile">View profile</p>
-        </a>
-      </div>
-      <div className="speaker-card">
-        <img src={s2} alt="" />
-        <p className="speaker-name">Abhilasha Gupta</p>
-        <p className="speaker-post">Software Developer</p>
-        <br />
-        <a href="">
-          <p className="speaker-profile">View profile</p>
-        </a>
-      </div>
+      ))}
     </div>
   );
 }
