@@ -8,7 +8,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 export default function Footer() {
   return (
-    <div className="footer-container">
+    <div id="footer" className="footer-container">
       <div className="subfooter-container">
         <h1>Stay Tuned for More !</h1>
         <h3>Follow #DevFestSiliguri for updates, recaps, and news.</h3>

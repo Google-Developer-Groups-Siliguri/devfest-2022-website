@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../components/NavBar";
 import "../stylesheet/Schedule.css";
 
 const day1 = [
@@ -38,6 +39,8 @@ const day1 = [
 
 export default function Schedule() {
     return (
+        <div>
+        <Navbar active="schedule"/>
         <div className="bg-color ">
             <div className="container text-start py-5">
                 <h1 className="heading text-start">Schedule</h1>
@@ -138,6 +141,7 @@ export default function Schedule() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
