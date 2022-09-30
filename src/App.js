@@ -1,6 +1,6 @@
 import Faq from "./components/Faq";
 import Hero from "./components/Hero";
-import Navbar from "./components/NavBar"
+import Navbar from "./components/Navbar"
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
 
@@ -11,7 +11,7 @@ function App() {
       <Hero />
       <Faq />
       <Schedule />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
