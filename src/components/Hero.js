@@ -10,19 +10,19 @@ export default function Hero() {
   return (
     <div>
         <div className="hero">
-            <div class="container">
-                <div class="row align-items-center pt-1">
-                <div class="col-lg-7 col-12">
+            <div className="container">
+                <div className="row align-items-center pt-1">
+                <div className="col-lg-7 col-12">
                     <img src={logo} className="logo" alt="" />
-                    <p class="lead">Google Developer Groups is back with DevFest in your own town Siliguri, GDG Siiguri is organising this event in Siliguri, Do register and lets meet at the Devfest!</p>
-                    <p class="lead-2"><BsCalendarCheck/> 5th &amp; 6th November</p>
-                    <p class="lead-2"><MdLocationPin/>  Siliguri Institute of Technology</p>
+                    <p className="lead">Google Developer Groups is back with DevFest in your own town Siliguri, GDG Siiguri is organising this event in Siliguri, Do register and lets meet at the Devfest!</p>
+                    <p className="lead-2"><BsCalendarCheck/> 5th &amp; 6th November</p>
+                    <p className="lead-2"><MdLocationPin/>  Siliguri Institute of Technology</p>
                     
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-df btn-lg px-4 me-md-2">Register</button>
+                    <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" className="btn btn-df btn-lg px-4 me-md-2">Register</button>
                     </div>
                 </div>
-                <div class="col-lg-5 col-12">
+                <div className="col-lg-5 col-12">
                     <Countdown/>
                 </div>
                 </div>

@@ -2,6 +2,7 @@ import Faq from "./components/Faq";
 import Hero from "./components/Hero";
 import Navbar from "./components/NavBar"
 import Schedule from "./components/Schedule";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Faq />
       <Schedule />
+      <Footer/>
     </div>
   );
 }
