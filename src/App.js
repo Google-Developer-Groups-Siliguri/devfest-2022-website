@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Schedule from "./components/Schedule";
 import Footer from "./components/Footer";
 import Speakers from "./components/Speakers";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Speakers/>
       <Faq />
       <Schedule />
+      <Testimonials/>
       <Footer />
     </div>
   );

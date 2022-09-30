@@ -1,0 +1,81 @@
+.testimonials-container{
+    background: #EDF3FF;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+}
+
+.testimonials-title{
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #4387F6;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1{
+    margin: 0rem;
+}
+
+.message{
+    padding-left: 30rem;
+    width: 20%;
+}
+
+.scratch{
+    padding-left: 3rem;
+    width: 20%;
+}
+
+
+.carousel-container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
+
+.carousel-item{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 20px 0px rgba(124, 124, 124, 0.452);
+    transition: 1s cubic-bezier(0.39,0.575,0.565,1);
+}
+
+.carousel-item p{
+    margin-top: -0.2rem;
+    width: 80%;
+}
+
+.attendee{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.attendee img{
+    width: 10%;
+}
+
+.attendee-name p{
+    margin-top: -1rem;
+    width: 100%;
+}
