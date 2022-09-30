@@ -6,6 +6,7 @@ import monuments from "../assets/images/monuments.png"
 import Countdown from "../components/Countdown/Countdown"
 import { BsCalendarCheck } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
+
 export default function Hero() {
   return (
     <div>
