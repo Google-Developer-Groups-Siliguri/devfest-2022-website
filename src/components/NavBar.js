@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import logo from "../assets/images/devfest-logo.png"
 import css from "../stylesheet/Navbar.css"
 import { HiMenu } from "react-icons/hi";
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
@@ -14,19 +15,19 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link to="/" className={`nav-link ${props.active==="home"?"active":""}`}>Home</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Schedule</a>
+                    <Link to="/schedule" className={`nav-link ${props.active==="schedule"?"active":""}`} >Schedule</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Ticket</a>
+                    <Link to="/tickets" className={`nav-link ${props.active==="tickets"?"active":""}`} >Tickets</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Team</a>
+                    <Link to="/team" className={`nav-link ${props.active==="team"?"active":""}`} >Team</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Contact Us</a>
+                    <Link to="/contact" className={`nav-link ${props.active==="contact"?"active":""}`} >Contact US</Link>
                     </li>
                     
                 </ul>
