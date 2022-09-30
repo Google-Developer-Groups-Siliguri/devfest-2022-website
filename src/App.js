@@ -1,13 +1,16 @@
 import Faq from "./components/Faq";
 import Hero from "./components/Hero";
-import Navbar from "./components/NavBar"
-
+import Navbar from "./components/Navbar"
+import Schedule from "./components/Schedule";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero/>
+      <Hero />
       <Faq />
+      <Schedule />
+      <Footer />
     </div>
   );
 }
