@@ -38,3 +38,46 @@
     padding-left: 2rem;
     width: 35%;
 }
+
+
+.carousel-container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+
+
+.carousel-item{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 20px 0px rgba(124, 124, 124, 0.452);
+    transition: 1s cubic-bezier(0.39,0.575,0.565,1);
+}
+
+.carousel-item p{
+    margin-top: -0.2rem;
+    width: 80%;
+}
+
+.attendee{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.attendee img{
+    width: 10%;
+}
+
+.attendee-name p{
+    margin-top: -1rem;
+    width: 100%;
+}
