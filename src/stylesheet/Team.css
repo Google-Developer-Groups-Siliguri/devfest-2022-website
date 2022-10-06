@@ -13,6 +13,9 @@
 
 
 .member-card{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
     align-items: center;
     background: #ffffff;
     padding: 1.5rem 4.5rem 1rem 4.5rem;
@@ -36,4 +39,94 @@
 .members-social{
     display: flex;
     gap: 1rem;
+}
+
+.member-social-icon{
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width:480px) {
+    .members{
+        grid-template-columns: 1fr;
+    }
+
+    .member-card{
+        padding: 1rem 4rem 1rem 4rem;
+        margin:2rem 0rem 0rem 0rem;
+    }
+
+    .member-name{
+        font-size: 1rem;
+    }
+    
+    
+    .member-post{
+        font-size: 0.8rem;
+
+    }
+    
+    .member-social-icon{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .members{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .member-card{
+        padding: 1.5rem 4rem 1.5rem 4rem;
+        margin:2rem 2rem 0rem 2rem;
+    }
+
+    .member-name{
+        font-size: 1rem;
+    }
+    
+    
+    .member-post{
+        font-size: 0.8rem;
+
+    }
+
+    .members-social{
+        margin-top: -1rem;
+    }
+    
+    .member-social-icon{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .members{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .member-card{
+        padding: 1.5rem 4rem 1.5rem 4rem;
+        margin:2rem 2rem 0rem 2rem;
+    }
+
+    .member-name{
+        font-size: 1rem;
+    }
+    
+    
+    .member-post{
+        font-size: 0.8rem;
+
+    }
+
+    .members-social{
+        margin-top: -1rem;
+    }
+    
+    .member-social-icon{
+        font-size: 1rem;
+    }
+
 }

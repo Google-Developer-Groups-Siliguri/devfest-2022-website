@@ -83,20 +83,22 @@ export default function Team() {
         {memberData.map((item,key)=>(
         <div key={item.id} className="member-card" >
         <img src={item.src} alt="" />
+        <div>
         <p className="member-name">{item.memberName}</p>
         <p className="member-post">{item.memberPost}</p>
         <div className="members-social">
 
         
         <a href={item.memberLinkedin} target="_blank">
-          <BsLinkedin size={30} color='black'/>
+          <BsLinkedin className='member-social-icon' color='black'/>
         </a>
         <a href={item.memberGithub} target="_blank">
-          <BsGithub size={30} color='black'/>
+          <BsGithub className='member-social-icon' color='black'/>
         </a>
         <a href={item.memberInstab} target="_blank">
-          <FiInstagram size={35} color='white' fill='black'/>
+          <FiInstagram className='member-social-icon'  color='white' fill='black'/>
         </a>
+        </div>
         </div>
       </div>
       ))}
