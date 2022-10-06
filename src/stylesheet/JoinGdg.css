@@ -6,14 +6,13 @@
 {
     width: 100%;
     height: auto;
+    margin-left: -10%;
 }
-p
+.joingdgmobimg
 {
-    font-size: 30px;
-}
-h1
-{
-    font-size: 50px;
+    width: 100%;
+    height: auto;
+    display: none;
 }
 /* Vertically Align Centre */
 .outer {
@@ -37,6 +36,15 @@ h1
   /* Vertically Alligned CSS Ends */
   @media only screen and (max-width: 800px)
   {
+    .joingdgmobimg
+    {
+        display: block;
+        margin-left: 10%;
+    }
+    .joingdgimg
+    {
+        display: none;
+    }
     p
     {
         font-size: 12px;
@@ -44,5 +52,9 @@ h1
     h1
     {
         font-size: 20px;
+    }
+    .btn
+    {
+      width: 100%;
     }
   }

@@ -26,4 +26,8 @@
     #timer{
         margin-top: 20px;
     }
+    .monuments-img
+    {
+        display: none;
+    }
 }

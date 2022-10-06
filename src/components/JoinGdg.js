@@ -1,5 +1,6 @@
 import React from "react";
 import joingdg from "../assets/images/JoinGdg.png";
+import joingdgmob from "../assets/images/joingdgmob.png";
 import "../stylesheet/JoinGdg.css";
 const JoinGdg = () => {
   return (
@@ -8,6 +9,7 @@ const JoinGdg = () => {
         <div className="row">
           <div className="col-sm-6">
             <img src={joingdg} alt="joingdg" className="joingdgimg" />
+            <img src={joingdgmob} alt="joingdg" className="joingdgmobimg" />
           </div>
           <div className="col-sm-6">
             <div className="container">
@@ -28,6 +30,7 @@ const JoinGdg = () => {
             </div>
           </div>
         </div>
+        <br/>
       </section>
     </>
   );
