@@ -1,0 +1,39 @@
+.team-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.members{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.member-card{
+    align-items: center;
+    background: #ffffff;
+    padding: 1.5rem 4.5rem 1rem 4.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 15px 0px #4388f688;
+    margin: 4rem;
+}
+
+.member-name{
+    font-size: 1.5rem;
+    color: #4387f6;
+    margin-bottom: 0rem;
+}
+
+
+.member-post{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.members-social{
+    display: flex;
+    gap: 1rem;
+}

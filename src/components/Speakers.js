@@ -69,19 +69,19 @@ function MoreSpeakers() {
       src:'../assets/images/speaker1',
       speakerName:"Abhilasha Gupta",
       spekerPost:"Software Engineer",
-      speakerProfile:"View Profile",
+      speakerProfile:"https://www.linkedin.com/",
     },
     {
       speakerImage:{s1},
       speakerName:"Abhilasha Gupta",
       spekerPost:"Software Engineer",
-      speakerProfile:"View Profile",
+      speakerProfile:"https://www.linkedin.com/",
     },
     {
       speakerImage:{s1},
       speakerName:"Abhilasha Gupta",
       spekerPost:"Software Engineer",
-      speakerProfile:"View Profile",
+      speakerProfile:"https://www.linkedin.com/",
     },
   ]
 
@@ -93,7 +93,7 @@ function MoreSpeakers() {
         <p className="speaker-name">{item.speakerName}</p>
         <p className="speaker-post">{item.spekerPost}</p>
         <br />
-        <a href={item.speakerProfile}>
+        <a href={item.speakerProfile} target="_blank">
           <p className="speaker-profile">View profile</p>
         </a>
       </div>
