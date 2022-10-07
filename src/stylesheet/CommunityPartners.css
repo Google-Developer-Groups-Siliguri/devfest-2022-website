@@ -1,0 +1,18 @@
+.partnersbox
+{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.cpimgfix
+{
+    width: 100%;
+    height:auto;
+    max-height: 100px;
+    max-width: 100px;
+    padding: 10px;
+}
