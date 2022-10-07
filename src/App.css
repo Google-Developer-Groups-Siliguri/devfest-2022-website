@@ -1,3 +1,11 @@
+html
+{
+    overflow-x: hidden!important;
+}
+body
+{
+    overflow-x: hidden!important;
+}
 a
 {
   text-decoration: none;
