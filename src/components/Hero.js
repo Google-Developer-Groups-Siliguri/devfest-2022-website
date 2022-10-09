@@ -11,7 +11,7 @@ export default function Hero() {
     return (
         <div>
             <div className="hero">
-                <div className="heroBox">
+                <div className="container">
                     <div className="row justify-content-between">
                         <div className="col-lg-6 col-12">
                             <img src={logo} className="logo" alt="" />
