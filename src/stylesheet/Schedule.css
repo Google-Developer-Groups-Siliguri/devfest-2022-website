@@ -7,7 +7,8 @@
 }
 
 .info {
-    font-size: 3vh;
+    font-weight: 400;
+    font-size: 2.5vh;
 }
 
 .faqmenu {
@@ -27,22 +28,22 @@
 .nav-tabs {
     margin-bottom: 10px;
     background-color: white;
-    border-bottom: px solid #dee2e6;
+    /* border-bottom: 1px solid #dee2e6; */
 }
 
 .nav-tabs .nav-link.active {
     font-weight: 600;
     color: #4387F6;
     background-color: #fff;
-    border-bottom: 5px solid #dee2e6;
-    border-color: #ffffff #ffffff #4387F6;
+    border-bottom: 5px solid #4387F6 !important;
+    /* border-color: #ffffff #ffffff #4387F6; */
 }
 
 .nav-tabs .nav-link:hover {
     color: #4387F6;
-    background-color: #fff;
-    border-bottom: 5px solid #dee2e6;
-    border-color: #ffffff #ffffff #ffffff;
+    /* background-color: #fff; */
+    /* border-bottom: 5px solid #dee2e6; */
+    /* border-color: #ffffff #ffffff #ffffff; */
     /* border-color: #ffffff #ffffff rgb(255, 255, 255); */
 }
 
