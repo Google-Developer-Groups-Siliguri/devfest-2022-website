@@ -14,7 +14,7 @@ class Speakers extends React.Component {
       this.setState({ divcontainer: !this.state.divcontainer });
     };
 
-    const x= this.state.divcontainer;
+    const x = this.state.divcontainer;
     return (
       <div className="speakers-container">
         <h1>Speakers</h1>
@@ -56,47 +56,49 @@ class Speakers extends React.Component {
             </a>
           </div>
         </div>
-        {x&&<div><MoreSpeakers/></div>}
-        <button onClick={HandleLoad}>{x?'Load Less':'Load More'}</button>
+        {x && <div><MoreSpeakers /></div>}
+        <button onClick={HandleLoad}>{x ? 'Load Less' : 'Load More'}</button>
       </div>
     );
   }
 }
 
 function MoreSpeakers() {
-  const speakerData =[
+  const speakerData = [
     {
-      src:'../assets/images/speaker1',
-      speakerName:"Abhilasha Gupta",
-      spekerPost:"Software Engineer",
-      speakerProfile:"https://www.linkedin.com/",
+      src: require('../assets/images/speaker1.png'),
+      speakerName: "Abhilasha Gupta",
+      spekerPost: "Software Engineer",
+      speakerProfile: "https://www.linkedin.com/",
     },
     {
-      speakerImage:{s1},
-      speakerName:"Abhilasha Gupta",
-      spekerPost:"Software Engineer",
-      speakerProfile:"https://www.linkedin.com/",
+      src: require('../assets/images/speaker1.png'),
+      speakerImage: { s1 },
+      speakerName: "Abhilasha Gupta",
+      spekerPost: "Software Engineer",
+      speakerProfile: "https://www.linkedin.com/",
     },
     {
-      speakerImage:{s1},
-      speakerName:"Abhilasha Gupta",
-      spekerPost:"Software Engineer",
-      speakerProfile:"https://www.linkedin.com/",
+      src: require('../assets/images/speaker1.png'),
+      speakerImage: { s1 },
+      speakerName: "Abhilasha Gupta",
+      spekerPost: "Software Engineer",
+      speakerProfile: "https://www.linkedin.com/",
     },
   ]
 
   return (
     <div className="speakers">
-      {speakerData.map((item,key)=>(
+      {speakerData.map((item, key) => (
         <div key={item.id} className="speaker-card" >
-        <img src={item.src} alt="" />
-        <p className="speaker-name">{item.speakerName}</p>
-        <p className="speaker-post">{item.spekerPost}</p>
-        <br />
-        <a href={item.speakerProfile} target="_blank">
-          <p className="speaker-profile">View profile</p>
-        </a>
-      </div>
+          <img src={item.src} alt="" />
+          <p className="speaker-name">{item.speakerName}</p>
+          <p className="speaker-post">{item.spekerPost}</p>
+          <br />
+          <a href={item.speakerProfile} target="_blank">
+            <p className="speaker-profile">View profile</p>
+          </a>
+        </div>
       ))}
     </div>
   );
