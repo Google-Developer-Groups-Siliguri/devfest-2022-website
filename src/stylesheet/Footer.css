@@ -47,8 +47,8 @@
   color: #0056e3;
 }
 
-.main-footer-bottom p{
-    margin: 0;
+.main-footer-bottom p {
+  margin: 0;
 }
 
 .main-footer-socials {
@@ -56,6 +56,11 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+.text {
+  font-size: 45px;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 480px) {

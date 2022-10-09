@@ -10,10 +10,11 @@ export default function Footer() {
   return (
     <div id="footer" className="footer-container">
       <div className="subfooter-container">
-        <h1>Stay Tuned for More !</h1>
-        <h3>Follow #DevFestSiliguri for updates, recaps, and news.</h3>
+        <p className="text">Stay Tuned for More !</p>
+        <h3>Follow #DevFestSiliguri for updates,</h3>
+        <h3>recaps, and news.</h3>
         <div className="subfooter-social-icons">
-          <BsTwitter/> <BsLinkedin /> <FiInstagram /> <BsFacebook /> <BsLinkedin/>
+          <BsTwitter /> <BsLinkedin /> <FiInstagram /> <BsFacebook /> <BsLinkedin />
         </div>
       </div>
       <div className="main-footer">
@@ -31,7 +32,7 @@ export default function Footer() {
           </a>
           <div className="main-footer-socials">
             <p>Follow us on</p>
-            <BsTwitter /> <BsLinkedin /> <FiInstagram /> <BsTwitter/>
+            <BsTwitter /> <BsLinkedin /> <FiInstagram /> <BsTwitter />
           </div>
         </div>
       </div>
