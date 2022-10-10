@@ -6,30 +6,39 @@
     max-height: 300px;
     padding: 10px;
 }
+.cardimgfixsilver
+{
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+    min-height: 300px;
+    /* max-width: 300px; */
+    padding: 10px;
+}
 .cardbox1
 {
     width: 100%;
-    max-width: 300px;
+    max-width: 517px;
     height: auto;
-    min-height: 300px;
+    max-height: 357px;
     border-radius: 5px;
     border: 1px solid red;
 }
 .cardbox2
 {
     width: 100%;
-    max-width: 300px;
+    max-width: 517px;
     height: auto;
-    min-height: 300px;
+    max-height: 357px;
     border-radius: 5px;
     border: 1px solid gold;
 }
 .cardbox3
 {
     width: 100%;
-    max-width: 300px;
+    max-width: 517px;
     height: auto;
-    min-height: 300px;
+    max-height: 357px;
     border-radius: 5px;
     border: 1px solid silver;
 }
@@ -52,8 +61,9 @@
 }
 .bottombox1,.bottombox2,.bottombox3
 {
-    min-height: 40px;
-    margin-top: 65%;
+    max-height: 40px;
+    margin-top: 20px;
+    /* margin-top: 65%; */
 }
 .cardbox1,.cardbox2,.cardbox3
 {

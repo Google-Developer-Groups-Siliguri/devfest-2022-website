@@ -1,5 +1,6 @@
 import React from "react";
 import googledevelopers from "../assets/images/googledevelopers.png";
+import sitlogo from "../assets/images/sitlogo.png";
 import "../stylesheet/Sponsor.css";
 const Sponsors = () => {
   return (
@@ -12,7 +13,7 @@ const Sponsors = () => {
         <div className="row">
           <center>
             <div className="cardbox1">
-              <img src={googledevelopers} className="cardimgfix" alt="" />
+              <img src={googledevelopers} style={{minHeight:"300px",maxWidth:"500px"}} className="cardimgfix" alt="" />
               <div className="bottombox1">
                 <p>Title Sponsor</p>
               </div>
@@ -23,7 +24,7 @@ const Sponsors = () => {
         <div className="row">
           <center>
             <div className="cardbox2">
-              <img src={googledevelopers} className="cardimgfix" alt="" />
+              <img src={sitlogo} className="cardimgfix" alt="" />
               <div className="bottombox2">
                 <p>Gold Sponsor</p>
               </div>
@@ -35,7 +36,7 @@ const Sponsors = () => {
           <div className="row">
             <div className="col-sm">
               <div className="cardbox3">
-                <img src={googledevelopers} className="cardimgfix" alt="" />
+                <img src={sitlogo} className="cardimgfixsilver" alt="" />
                 <div className="bottombox3">
                   <p>Silver Sponsor</p>
                 </div>
@@ -43,7 +44,7 @@ const Sponsors = () => {
             </div>
             <div className="col-sm">
               <div className="cardbox3">
-                <img src={googledevelopers} className="cardimgfix" alt="" />
+                <img src={sitlogo} className="cardimgfixsilver" alt="" />
                 <div className="bottombox3">
                   <p>Silver Sponsor</p>
                 </div>
@@ -51,7 +52,7 @@ const Sponsors = () => {
             </div>
             <div className="col-sm">
               <div className="cardbox3">
-                <img src={googledevelopers} className="cardimgfix" alt="" />
+                <img src={sitlogo} className="cardimgfixsilver" alt="" />
                 <div className="bottombox3">
                   <p>Silver Sponsor</p>
                 </div>
