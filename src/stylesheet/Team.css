@@ -1,16 +1,37 @@
 .team-container{
+    margin: 5rem 8rem 5rem 8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+}
+
+.team-container-title{
+    align-self: flex-start;
+}
+
+.team-container-title h1{
+    font-size: 4rem;
 }
 
 .members{
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 3rem;
 }
 
-
+.organisers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    gap: 3rem;
+}
 
 .member-card{
     display: flex;
@@ -18,10 +39,24 @@
     gap: 1rem;
     align-items: center;
     background: #ffffff;
-    padding: 1.5rem 4.5rem 1rem 4.5rem;
+    padding: 1.5rem 3.5rem 1rem 3.5rem;
     border-radius: 0.8rem;
     box-shadow: 0px 0px 15px 0px #4388f688;
-    margin: 4rem;
+}
+
+.organiser-name{
+    font-size: 2.5rem;
+    color: #4387f6;
+    margin-bottom: 0rem;
+}
+
+.organiser-post{
+    font-size: 1.8rem;
+    color: grey;
+}
+
+.member-card img{
+    width: 35%;
 }
 
 .member-name{
@@ -43,6 +78,11 @@
 
 .member-social-icon{
     font-size: 1.8rem;
+}
+
+.member-social-icon:hover{
+    font-size: 2rem;
+    transition: 0.1s;
 }
 
 @media only screen and (max-width:480px) {

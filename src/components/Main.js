@@ -19,7 +19,7 @@ export default function main() {
         <Sponsors/>
         <CommunityPartners/>
         <Faq/>
-        {/* <Testimonials/> */}
+        <Testimonials/>
         <JoinGdd/>
         <Footer/>
     </div>
