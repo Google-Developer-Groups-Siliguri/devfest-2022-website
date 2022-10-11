@@ -12,5 +12,6 @@ a
 }
 h1
 {
-  color: #4387F6;
+  color: #4387F6!important;
+  font-size: 70px!important;
 }
