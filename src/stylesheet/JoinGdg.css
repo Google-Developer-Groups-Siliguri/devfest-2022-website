@@ -2,11 +2,18 @@
 {
     margin-top: 30px;
 }
+.joingdg-h1{
+  font-size: 65px!important;
+}
+.joingdg-p{
+  font-size: 22px!important;
+  color: #5D7688 !important;
+}
 .joingdgimg
 {
     width: 100%;
     height: auto;
-    margin-left: -10%;
+    /* margin-left: -10%; */
 }
 .joingdgmobimg
 {
@@ -34,7 +41,7 @@
     /* max-width: 400px; */
   }
   /* Vertically Alligned CSS Ends */
-  @media only screen and (max-width: 800px)
+  @media only screen and (max-width: 985px)
   {
     .joingdgmobimg
     {

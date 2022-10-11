@@ -16,10 +16,10 @@ export default function main() {
         <Hero/>
         <WhatIsDevFest/>
         <Speakers/>
-        <Sponsors/>
-        <CommunityPartners/>
         <Faq/>
         <Testimonials/>
+        <Sponsors/>
+        <CommunityPartners/>
         <JoinGdd/>
         <Footer/>
     </div>

@@ -7,17 +7,17 @@ const JoinGdg = () => {
     <>
       <section id="joingdg">
         <div className="row">
-          <div className="col-sm-6">
+          <div className="col-lg-6 col-12">
             <img src={joingdg} alt="joingdg" className="joingdgimg" />
             <img src={joingdgmob} alt="joingdg" className="joingdgmobimg" />
           </div>
-          <div className="col-sm-6">
+          <div className="col-lg-6 col-12 d-flex">
             <div className="container">
               <div className="outer">
                 <div className="middle">
                   <div className="inner">
-                    <h1>Join GDG Siliguri</h1>
-                    <p>
+                    <h1 className="joingdg-h1">Join GDG Siliguri</h1>
+                    <p className="joingdg-p">
                       DevFests are local tech conferences hosted by Google
                       Developer Groups (GDG) around the world. Each DevFest
                       event is crafted by its local organizers to fit the needs

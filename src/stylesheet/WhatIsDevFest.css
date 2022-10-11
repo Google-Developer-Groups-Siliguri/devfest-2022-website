@@ -42,7 +42,7 @@ h1
 }
 .whatisdevfest-content-header h1
 {
-    font-size: 42px;
+    font-size: 42px !important;
     font-weight: 600;
     color: #4387F6;
 }
@@ -59,7 +59,7 @@ h1
     }
     .whatisdevfest-content-header p
     {
-        font-size: 12px;
+        font-size: 16px !important;
     }
     .whatisdevfest-content-header h1
     {
