@@ -6,8 +6,8 @@ const WhatIsDevFest = () => {
     <>
       <section id="whatisdevfest">
         <div className="addbg">
-            <div className="row">
-              <div className="col-sm-8">
+            <div className="whatisdevfest-row row">
+              <div className="col-md-8 col-12">
                 <div className="whatisdevfest-content">
                   <div className="whatisdevfest-content-header">
                     <h1>What Is DevFest? </h1>
@@ -22,7 +22,7 @@ const WhatIsDevFest = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-4">
+              <div className="col-md-4 col-12">
                 <img
                   src={comboimg}
                   alt="comboimg"
