@@ -9,11 +9,11 @@
 }
 
 .subfooter-container h1 {
-  font-size: 3rem;
+  font-size: 3rem !important;
 }
 
 .subfooter-container h3 {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   text-align: center;
   width: 35%;
 }
@@ -59,19 +59,21 @@
 }
 
 .text {
-  font-size: 45px;
+  text-align: center;
+  font-size: 3rem;
   font-weight: 500;
 }
 
 @media only screen and (max-width: 480px) {
   .subfooter-container h1 {
-    font-size: 1.5rem;
+    align-self: center;
+    font-size: 1.5rem !important;
   }
 
   .subfooter-container h3 {
     margin-top: 0.1rem;
-    font-size: 0.7rem;
-    width: 60%;
+    font-size: 1.2rem !important;
+    width: 100%;
   }
 
   .subfooter-social-icons {
@@ -109,7 +111,7 @@
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .subfooter-container h1 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   .subfooter-container h3 {
@@ -148,7 +150,7 @@
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .subfooter-container h1 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   .subfooter-container h3 {

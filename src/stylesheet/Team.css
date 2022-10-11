@@ -12,7 +12,7 @@
 }
 
 .team-container-title h1{
-    font-size: 4rem;
+    font-size: 4rem !important;
 }
 
 .team-container-title p{
@@ -96,7 +96,7 @@
 
     .team-container h1{
         margin-top: 2rem;
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
 
     .team-container-title p{
@@ -104,7 +104,7 @@
     }    
 
     .team-container-title h1{
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
 
     .organisers{
@@ -156,11 +156,11 @@
 
     .team-container h1{
         margin-top: 2rem;
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
 
     .team-container-title h1{
-        font-size: 3rem;
+        font-size: 3rem !important;
     }
 
     .organisers{
