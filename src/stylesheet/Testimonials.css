@@ -24,7 +24,7 @@
 }
 
 .title h1{
-    font-size: 3.5rem;
+    font-size: 3.5rem !important;
     width: 70%;
     margin: 0rem;
 }
@@ -88,7 +88,7 @@
 
 .testimonial-item h1{
     color: black;
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
 }
 
 .testimonial-item p{
@@ -128,7 +128,7 @@
 
 
     .title h1{
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
 
     .message{
@@ -154,7 +154,7 @@
     
     .testimonial-item h1{
         color: black;
-        font-size: .8rem;
+        font-size: .8rem !important;
     }
     
     .testimonial-item p{
@@ -185,7 +185,7 @@
     }
     
     .attendee-name h3{
-        font-size: 0.8rem;
+        font-size: 0.8rem !important;
     }
 }
 
@@ -202,7 +202,7 @@
     }
 
     .title h1{
-        font-size: 2rem;
+        font-size: 2rem !important;
         width: max-content;
     }
 
@@ -229,7 +229,7 @@
     
     .testimonial-item h1{
         color: black;
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
     
     .testimonial-item p{
@@ -261,6 +261,6 @@
     }
     
     .attendee-name h3{
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 }
