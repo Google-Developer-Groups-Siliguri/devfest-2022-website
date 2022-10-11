@@ -9,7 +9,9 @@
     min-height: 0vh;
     padding: 0px;
 }
-
+.faq-col{
+    margin: 70px 0;
+}
 .faqcontainer {
     max-height: 500px;
     overflow-y: scroll;

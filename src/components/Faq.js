@@ -29,7 +29,7 @@ const Faq = () => {
             <section id="faq">
                 <div className="container">
                     <h1 className="heading">F.A.Q</h1>
-                    <div className="col mt-5">
+                    <div className="faq-col col mt-5">
                         <div>
                             <div>
                                 {schemeFaq.map((item, key) => (
@@ -38,7 +38,7 @@ const Faq = () => {
                                     >
                                         <h2 className="accordion-header" id="headingOne">
                                             <button
-                                                className="accordion-button collapsed"
+                                                className={`accordion-button ${key===0?"":"collapsed"}`}
                                                 type="button"
                                                 data-bs-toggle="collapse"
                                                 data-bs-target={`#collapsescheme${key}`}
@@ -53,7 +53,7 @@ const Faq = () => {
 
                                         <div
                                             id={`collapsescheme${key}`}
-                                            className="accordion-collapse collapse"
+                                            className={`accordion-collapse collapse ${key===0?"show":""}`}
                                             aria-labelledby="headingOne"
                                             data-bs-parent="#accordionExample"
                                         >
