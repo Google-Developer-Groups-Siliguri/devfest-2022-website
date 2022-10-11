@@ -8,14 +8,14 @@ const Sponsors = () => {
       <div className="container">
         <br />
         <center>
-          <h1 style={{ fontSize: "4rem" }}>Sponsors</h1>
+          <h1>Sponsors</h1>
         </center>
         <div className="row">
           <center>
             <div className="cardbox1">
-              <img src={googledevelopers} style={{minHeight:"300px",maxWidth:"500px"}} className="cardimgfix" alt="" />
-              <div className="bottombox1">
-                <p>Title Sponsor</p>
+              <img src={googledevelopers} className="cardimgfix" style={{marginTop:"120px"}} alt="" />
+              <div className="bottombox1" style={{marginTop:"3.1cm"}}>
+                <p style={{color:"white"}}>Title Sponsor</p>
               </div>
             </div>
           </center>
@@ -24,8 +24,8 @@ const Sponsors = () => {
         <div className="row">
           <center>
             <div className="cardbox2">
-              <img src={sitlogo} className="cardimgfix" alt="" />
-              <div className="bottombox2">
+              <img src={sitlogo} className="cardimgfix" style={{marginTop:"30px"}} alt="" />
+              <div className="bottombox2" style={{marginTop:"75px"}}>
                 <p>Gold Sponsor</p>
               </div>
             </div>
@@ -36,7 +36,7 @@ const Sponsors = () => {
           <div className="row">
             <div className="col-sm">
               <div className="cardbox3">
-                <img src={sitlogo} className="cardimgfixsilver" alt="" />
+                <img src={sitlogo} className="cardimgfix" alt="" />
                 <div className="bottombox3">
                   <p>Silver Sponsor</p>
                 </div>
@@ -44,7 +44,7 @@ const Sponsors = () => {
             </div>
             <div className="col-sm">
               <div className="cardbox3">
-                <img src={sitlogo} className="cardimgfixsilver" alt="" />
+                <img src={sitlogo} className="cardimgfix" alt="" />
                 <div className="bottombox3">
                   <p>Silver Sponsor</p>
                 </div>
@@ -52,7 +52,7 @@ const Sponsors = () => {
             </div>
             <div className="col-sm">
               <div className="cardbox3">
-                <img src={sitlogo} className="cardimgfixsilver" alt="" />
+                <img src={sitlogo} className="cardimgfix" alt="" />
                 <div className="bottombox3">
                   <p>Silver Sponsor</p>
                 </div>

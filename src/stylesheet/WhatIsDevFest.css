@@ -5,6 +5,7 @@ html
 h1
 {
     color: #4387F6;
+    font-size: 70px;
 }
 #whatisdevfest
 {
@@ -37,6 +38,17 @@ h1
     max-width: 90%;
     padding: 60px;
     text-align: justify!important;
+}
+.whatisdevfest-content-header h1
+{
+    font-size: 70px;
+    font-weight: 600;
+    color: #4387F6;
+}
+.whatisdevfest-content-header p
+{
+    max-width: 800px;
+    font-size: 25px;
 }
 @media only screen and (max-width: 800px)
 {
