@@ -15,6 +15,10 @@
     font-size: 4rem;
 }
 
+.team-container-title p{
+    font-size: 1.2rem;
+}
+
 .members{
     margin-top: 3rem;
     display: grid;
@@ -86,19 +90,53 @@
 }
 
 @media only screen and (max-width:480px) {
+    .team-container{
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    .team-container h1{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .team-container-title p{
+        font-size: 1rem;
+    }    
+
+    .team-container-title h1{
+        font-size: 3rem;
+    }
+
+    .organisers{
+        margin-top: 1rem;
+    grid-template-columns: 1fr;
+    }
+    
+    .organiser-name{
+        font-size: 2rem;
+    }
+    
+    .organiser-post{
+        font-size: 1.2rem;
+
+    }
+
+    .organiser-card img{
+        width: 45%;
+    }
+
     .members{
         grid-template-columns: 1fr;
     }
 
     .member-card{
-        padding: 1rem 4rem 1rem 4rem;
+        padding: 1rem 2rem 1rem 2rem;
         margin:2rem 0rem 0rem 0rem;
     }
 
     .member-name{
         font-size: 1rem;
     }
-    
     
     .member-post{
         font-size: 0.8rem;
@@ -112,13 +150,43 @@
 }
 
 @media only screen and (min-width:481px) and (max-width:768px) {
+    .team-container{
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    .team-container h1{
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .team-container-title h1{
+        font-size: 3rem;
+    }
+
+    .organisers{
+        margin-top: 1rem;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    .organiser-name{
+        font-size: 1.5rem;
+    }
+    
+    .organiser-post{
+        font-size: 1rem;
+
+    }
+    .organiser-card img{
+        width: 55%;
+    }
+
     .members{
         grid-template-columns: 1fr 1fr;
     }
 
     .member-card{
-        padding: 1.5rem 4rem 1.5rem 4rem;
-        margin:2rem 2rem 0rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
+        margin:2rem 0rem 0rem 0rem;
     }
 
     .member-name{
