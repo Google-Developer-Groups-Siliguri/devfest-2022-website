@@ -19,7 +19,7 @@ export default function Hero() {
                             <p className="lead-2"><BsCalendarCheck /> 5th &amp; 6th November</p>
                             <p className="lead-3"><MdLocationPin />  Siliguri Institute of Technology</p>
                             <div className="d-grid gap-2 d-md-flex justify-content-md-start my-4">
-                                <button type="button" className="btns">Register</button>
+                                <button disabled type="button" className="btn btn-secondary btns">Register</button>
                             </div>
                         </div>
                         <div className="col-lg-5 col-12">

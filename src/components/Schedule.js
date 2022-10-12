@@ -3,7 +3,7 @@ import Navbar from "../components/NavBar";
 import "../stylesheet/Schedule.css";
 import Footer2 from "./Footer2";
 
-const day1S = true;
+const day1S = false;
 const day2S = false;
 const day1 = [
     {

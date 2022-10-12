@@ -5,6 +5,7 @@ import s2 from "../assets/images/speaker2.png";
 import s3 from "../assets/images/speaker3.png";
 import s4 from "../assets/images/speaker4.png";
 
+
 class Speakers extends React.Component {
   state = {
     divcontainer: false,

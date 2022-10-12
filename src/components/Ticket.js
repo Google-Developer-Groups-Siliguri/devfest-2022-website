@@ -11,7 +11,7 @@ export default function Ticket() {
           <h1>Book your seat</h1>
           <span className='info'>Book your ticket to DevFest’22 at Siliguri Institute of Technology and experience the community like no other</span>
           <br />
-          <button type="button" className="getTicket">Get Ticket</button>
+          <button type="button" disabled className="getTicket">Get Ticket</button>
         </div>
         <br />
         <div className='container'>

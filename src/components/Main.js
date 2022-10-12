@@ -12,16 +12,16 @@ import CommunityPartners from './CommunityPartners';
 export default function main() {
   return (
     <div>
-        <Navbar active="home"/>
-        <Hero/>
-        <WhatIsDevFest/>
-        <Speakers/>
-        <Faq/>
-        <Testimonials/>
-        <Sponsors/>
-        <CommunityPartners/>
-        <JoinGdd/>
-        <Footer/>
+      <Navbar active="home" />
+      <Hero />
+      <WhatIsDevFest />
+      {/* <Speakers/> */}
+      {/* <Faq /> */}
+      <Testimonials />
+      <Sponsors />
+      <CommunityPartners />
+      <JoinGdd />
+      <Footer />
     </div>
   )
 }
