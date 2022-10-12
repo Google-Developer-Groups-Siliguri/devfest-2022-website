@@ -58,7 +58,7 @@ class Speakers extends React.Component {
           </div>
         </div>
         {x && <div><MoreSpeakers /></div>}
-        <button onClick={HandleLoad}>{x ? 'Load Less' : 'Load More'}</button>
+        <button style={{marginTop:"1rem"}} className="btn btns" onClick={HandleLoad}>{x ? 'Load Less' : 'Load More'}</button>
       </div>
     );
   }

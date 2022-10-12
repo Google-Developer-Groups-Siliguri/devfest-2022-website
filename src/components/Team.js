@@ -123,7 +123,7 @@ export default function Team() {
           {organisersData.map((item, key) => (
             <div key={item.id} className="member-card organiser-card">
               <img src={item.src} alt="" />
-              <div>
+              <div className="team-desc">
                 <p className="organiser-name">{item.organiserName}</p>
                 <p className="organiser-post">{item.organiserPost}</p>
                 <div className="members-social">
@@ -150,7 +150,7 @@ export default function Team() {
           {memberData.map((item, key) => (
             <div key={item.id} className="member-card">
               <img src={item.src} alt="" />
-              <div>
+              <div className="team-desc">
                 <p className="member-name">{item.memberName}</p>
                 <p className="member-post">{item.memberPost}</p>
                 <div className="members-social">
