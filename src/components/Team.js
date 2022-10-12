@@ -4,9 +4,10 @@ import { FiInstagram } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import "../stylesheet/Team.css";
+import Footer2 from "./Footer2";
 
 export default function Team() {
-  const organisersData=[
+  const organisersData = [
     {
       src: require("../assets/images/speaker1.png"),
       organiserName: "Abhilasha Gupta",
@@ -41,7 +42,7 @@ export default function Team() {
     }
   ]
 
-  
+
   const memberData = [
     {
       src: require("../assets/images/speaker1.png"),
@@ -114,8 +115,8 @@ export default function Team() {
       <Navbar active="team" />
       <div className="team-container">
         <div className="team-container-title">
-        <h1>Team</h1>
-        <p>Meet our devFest Siliguri 2022 organisers and volounteers </p>
+          <h1>Team</h1>
+          <p>Meet our devFest Siliguri 2022 organisers and volounteers </p>
         </div>
         <h1>Organisers</h1>
         <div className="organisers">
@@ -172,6 +173,7 @@ export default function Team() {
           ))}
         </div>
       </div>
+      <Footer2 />
     </div>
   );
 }

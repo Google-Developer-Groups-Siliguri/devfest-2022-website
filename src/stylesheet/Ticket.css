@@ -1,0 +1,26 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.ticket {
+    display: flex;
+    flex-direction: column;
+}
+
+.getTicket {
+    background-color: #4387F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 12%;
+}
