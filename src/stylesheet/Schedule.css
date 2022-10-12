@@ -1,14 +1,33 @@
-.bg-color {
-    background-color: #BBD1F6;
+html {
+    height: 100%;
 }
 
-.heading {
-    font-size: 9vh;
+.bg-color {
+    flex: 1;
+    background-color: #E9F1FF;
+}
+
+.headS {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+
+.ScheduleCss {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.footer {
+    margin-top: auto;
 }
 
 .info {
     font-weight: 400;
     font-size: 2.5vh;
+    color: #4F4D4D;
+
 }
 
 .faqmenu {
@@ -50,6 +69,18 @@
 .schTime {
     border-right: 3px solid rgb(0, 101, 203);
     border-color: #ffffff #efefef rgb(0, 101, 203);
+}
+
+.startTime {
+    font-weight: 400;
+    font-size: 30px;
+    color: #4F4D4D;
+}
+
+.endTime {
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F4D4D;
 }
 
 .topic {
