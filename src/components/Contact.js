@@ -10,7 +10,7 @@ export default function Contact() {
       <Navbar active="contact" />
       <div className='page'>
         <div className='content'>
-          <h1 className='container text-center mt-5'>Reach out to us for any enquiry</h1>
+          <p className='container text-center mt-5 dev-heading'>Reach out to us for any enquiry</p>
         </div>
         <div>
           <img src={monuments} className="monuments-img"></img>

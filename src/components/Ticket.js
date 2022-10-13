@@ -8,10 +8,13 @@ export default function Ticket() {
       <div className='content'>
         <Navbar active="tickets" />
         <div className='container ticket mt-5'>
-          <h1>Book your seat</h1>
+          <p className='dev-heading'>Book your seat</p>
           <span className='info'>Book your ticket to DevFest’22 at Siliguri Institute of Technology and experience the community like no other</span>
           <br />
-          <button type="button" disabled className="getTicket">Get Ticket</button>
+
+          <div>
+            <button disabled className="btns btn-secondary">Get Ticket</button>
+          </div>
         </div>
         <br />
         <div className='container'>
@@ -21,18 +24,18 @@ export default function Ticket() {
             </li>
             <li>Tickets are non-refundable.
             </li>
-            <li>It’s important to us that everyone who attends Cloud Community Days Bhopal is treated equally, respected, and protected. By attending, you agree to abide by our Terms.</li>
+            <li>It’s important to us that everyone who attends Cloud Community Days Siliguri is treated equally, respected, and protected. By attending, you agree to abide by our Terms.</li>
           </ul>
         </div>
         <br />
         <div className='container'>
           <h2>Perks 🚀 </h2>
           <ul className='info'>
-            <li>Each ticket is valid for ONE admission only. If you are bringing a guest, they’ll need their own ticket.
+            <li>Hands on workshops🚀
             </li>
-            <li>Tickets are non-refundable.
+            <li>Interaction with the community 🙌
             </li>
-            <li>It’s important to us that everyone who attends Cloud Community Days Bhopal is treated equally, respected, and protected. By attending, you agree to abide by our Terms.</li>
+            <li>Learn, Enjoy and Participate 🏆</li>
           </ul>
         </div>
       </div>

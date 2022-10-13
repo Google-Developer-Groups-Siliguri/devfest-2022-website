@@ -1,38 +1,38 @@
-.team-container{
+.team-container {
     margin: 2rem 8rem 5rem 8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.team-container-title{
+.team-container-title {
     align-self: center;
     text-align: center;
     margin-bottom: 4rem;
 }
 
-.team-container h1{
+.team-container h1 {
     font-size: 2.4rem !important;
 }
 
-.team-container-title h1{
+.team-container-title h1 {
     font-size: 4rem !important;
 }
 
-.team-container-title p{
+.team-container-title p {
     font-size: 1.2rem;
 }
 
-.members{
+.members {
     margin-top: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
 }
 
-.organisers{
+.organisers {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 3rem;
@@ -40,12 +40,12 @@
     gap: 3rem;
 }
 
-.organiser-card{
+.organiser-card {
     width: max-content;
     align-self: center;
 }
 
-.member-card{
+.member-card {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -56,212 +56,213 @@
     box-shadow: 0px 0px 15px 0px #80808088;
 }
 
-.organiser-name{
+.organiser-name {
     font-size: 2rem;
     color: #4387f6;
     margin-bottom: 0rem;
 }
 
-.organiser-post{
+.organiser-post {
     font-size: 1.2rem;
     color: grey;
 }
 
-.member-card img{
+.member-card img {
     width: 95px;
 }
 
-.organiser-card img{
+.organiser-card img {
     width: 165px;
 }
 
-.member-name{
+.member-name {
     font-size: 1.2rem;
     color: #4387f6;
     margin-bottom: 0rem;
 }
 
 
-.member-post{
+.member-post {
     font-size: 1rem;
     color: grey;
 }
 
-.members-social{
+.members-social {
     display: flex;
     gap: 1rem;
 }
 
-.member-social-icon{
+.member-social-icon {
     font-size: 1.8rem;
 }
 
-.member-social-icon:hover{
+.member-social-icon:hover {
     font-size: 2rem;
     transition: 0.1s;
 }
 
 @media only screen and (max-width:540px) {
-    .team-container{
+    .team-container {
         margin: 1rem 2rem 1rem 2rem;
     }
 
-    .team-container h1{
+    .team-container h1 {
         margin-top: 2rem;
         font-size: 2rem !important;
     }
 
-    .team-container-title p{
+    .team-container-title p {
         font-size: 1rem;
-    }    
+    }
 
-    .team-container-title h1{
+    .team-container-title h1 {
         font-size: 3rem !important;
     }
 
-    .organisers{
+    .organisers {
         margin-top: 1rem;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 
-    .team-desc{
+    .team-desc {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .organiser-name{
+
+    .organiser-name {
         font-size: 1.3rem;
         text-align: center;
     }
-    
-    .organiser-post{
+
+    .organiser-post {
         font-size: 0.8rem;
 
     }
 
-    .organiser-card{
+    .organiser-card {
         flex-direction: column;
     }
 
-    .organiser-card img{
+    .organiser-card img {
         width: 75% !important;
     }
 
-    .members{
+    .members {
         grid-template-columns: 1fr;
     }
 
-    .member-card{
+    .member-card {
         padding: 1rem 2rem 1rem 2rem;
-        margin:2rem 0rem 0rem 0rem;
+        margin: 2rem 0rem 0rem 0rem;
         flex-direction: column;
     }
 
-    .member-card img{
+    .member-card img {
         width: 45%;
     }
 
-    .member-name{
+    .member-name {
         font-size: 1rem;
     }
-    
-    .member-post{
+
+    .member-post {
         font-size: 0.8rem;
 
     }
-    
-    .member-social-icon{
+
+    .member-social-icon {
         font-size: 1rem;
     }
 
 }
 
 @media only screen and (min-width:541px) and (max-width:768px) {
-    .team-container{
+    .team-container {
         margin: 1rem 2rem 1rem 2rem;
     }
 
-    .team-container h1{
+    .team-container h1 {
         margin-top: 2rem;
         font-size: 2rem !important;
     }
 
-    .team-container-title p{
+    .team-container-title p {
         font-size: 1rem;
-    }    
+    }
 
-    .team-container-title h1{
+    .team-container-title h1 {
         font-size: 3rem !important;
     }
 
-    .organisers{
+    .organisers {
         margin-top: 1rem;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 
-    .organiser-desc{
+    .organiser-desc {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .organiser-name{
+
+    .organiser-name {
         font-size: 1.3rem;
         text-align: center;
     }
-    
-    .organiser-post{
+
+    .organiser-post {
         font-size: 0.8rem;
 
     }
 
-    .organiser-card{
+    .organiser-card {
         flex-direction: column;
     }
 
-    .organiser-card img{
+    .organiser-card img {
         width: 35% !important;
     }
-    .members{
+
+    .members {
         grid-template-columns: 1fr 1fr;
     }
 
-    .member-card{
+    .member-card {
         padding: 1rem 2rem 1rem 2rem;
-        margin:2rem 0rem 0rem 0rem;
+        margin: 2rem 0rem 0rem 0rem;
     }
 
-    .member-name{
+    .member-name {
         font-size: 1rem;
     }
-    
-    
-    .member-post{
+
+
+    .member-post {
         font-size: 0.8rem;
 
     }
 
-    .members-social{
+    .members-social {
         margin-top: -1rem;
     }
-    
-    .member-social-icon{
+
+    .member-social-icon {
         font-size: 1rem;
     }
 
 }
 
 @media only screen and (min-width:769px) and (max-width:1024px) {
-    .team-container{
+    .team-container {
         margin: 1rem 2rem 1rem 2rem;
     }
 
-    .organiser-card{
+    .organiser-card {
         flex-direction: column;
     }
 
-    .team-desc{
+    .team-desc {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -272,39 +273,39 @@
         font-size: 1.5rem;
     }
 
-    .organiser-post{
+    .organiser-post {
         font-size: 1rem;
     }
 
-    .organiser-card{
+    .organiser-card {
         padding: 1rem 3rem 1rem 3rem !important;
-        margin:2rem 2rem 0rem 2rem;
+        margin: 2rem 2rem 0rem 2rem;
     }
-    
-    
-    .members{
+
+
+    .members {
         grid-template-columns: 1fr 1fr;
     }
 
-    .member-card{
+    .member-card {
         padding: 1.5rem 3rem 1.5rem 3rem;
     }
 
-    .member-name{
+    .member-name {
         font-size: 1.2rem;
     }
-    
-    
-    .member-post{
+
+
+    .member-post {
         font-size: 0.8rem;
 
     }
 
-    .members-social{
+    .members-social {
         margin-top: -1rem;
     }
-    
-    .member-social-icon{
+
+    .member-social-icon {
         font-size: 1rem;
     }
 

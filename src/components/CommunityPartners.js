@@ -7,7 +7,7 @@ const CommunityPartners = () => {
       <section id="community-partners">
         <div className="container">
           <center>
-            <h1 className="cpheading">Community Partners</h1>
+            <p className="text-center dev-heading mt-5 mb-5">Community Partners</p>
             <div className="row">
               <div className="col-sm">
                 <div className="partnersbox">

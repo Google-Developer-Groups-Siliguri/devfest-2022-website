@@ -5,7 +5,7 @@ import "../stylesheet/Sponsor.css";
 const Sponsors = () => {
   return (
     <section id="sponsors">
-      <h1 className="sponsor-heading">Sponsors</h1>
+      <p className="text-center dev-heading mt-5 mb-5">Sponsors</p>
       <div className="container">
         <div className="row">
           <center>

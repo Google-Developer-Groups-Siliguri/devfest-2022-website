@@ -52,7 +52,7 @@ export default function Schedule() {
                             Check out the schedule below and don't forget to mark your calendar so
                             that you don't miss out on any sessions.
                         </p>
-
+                        <br />
                         <ul className="nav nav-tabs" id="myTab" role="tablist">
                             <li className="nav-item" role="presentation">
                                 <button

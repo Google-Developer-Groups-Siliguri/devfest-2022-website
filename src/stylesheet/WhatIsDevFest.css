@@ -1,30 +1,29 @@
-html
-{
+html {
     overflow-x: hidden;
 }
-h1
-{
+
+h1 {
     color: #4387F6;
     font-size: 70px;
 }
-#whatisdevfest
-{
+
+#whatisdevfest {
     margin-top: 30px;
 }
-.whatisdevfestimg
-{
+
+.whatisdevfestimg {
     width: 100%;
     height: auto;
     margin-left: -20%;
 }
-.addbg
-{
+
+.addbg {
     background-image: url("../assets/images/WhatIsFrame.svg");
     background-size: contain;
     height: 550px;
 }
-.whatisdevfest-content
-{
+
+.whatisdevfest-content {
     margin-top: 30px;
     background-image: url("../assets/images/whatisbg.svg");
     background-repeat: no-repeat;
@@ -34,40 +33,39 @@ h1
     height: 200%;
     /* min-height: 650px;*/
 }
-.whatisdevfest-content-header
-{
+
+.whatisdevfest-content-header {
     max-width: 90%;
     padding: 60px;
-    text-align: justify!important;
+    text-align: justify !important;
 }
-.whatisdevfest-content-header h1
-{
-    font-size: 42px !important;
+
+.whatisdevfest-content-header h1 {
+    font-size: 50px !important;
     font-weight: 600;
     color: #4387F6;
 }
-.whatisdevfest-content-header p
-{
+
+.whatisdevfest-content-header p {
     max-width: 800px;
     font-size: 20px;
 }
-@media only screen and (max-width: 1200px)
-{
-    .whatisdevfest-content-header
-    {
+
+@media only screen and (max-width: 1200px) {
+    .whatisdevfest-content-header {
         padding: 10px;
     }
-    .whatisdevfest-content-header p
-    {
+
+    .whatisdevfest-content-header p {
         font-size: 16px !important;
     }
-    .whatisdevfest-content-header h1
-    {
+
+    .whatisdevfest-content-header h1 {
         font-size: 20px;
     }
-    .whatisdevfest-content
-    {
-        max-height: min-content!important;
+
+    .whatisdevfest-content {
+        max-height: min-content !important;
         background: white;
         border-radius: 30px;
         min-height: 0px;
@@ -75,15 +73,17 @@ h1
         height: auto;
         margin: 50px 42px;
     }
-    .whatisdevfestimg
-    {
+
+    .whatisdevfestimg {
         margin-left: 0;
     }
+
     .addbg {
         height: auto;
     }
 }
-@media(max-width:775px){
+
+@media(max-width:775px) {
     .whatisdevfest-content {
         height: auto;
         margin: 18px;
