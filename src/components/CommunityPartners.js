@@ -6,86 +6,78 @@ const CommunityPartners = () => {
     <>
       <section id="community-partners">
         <div className="container">
-          <br />
           <center>
-            <h1 style={{ fontSize: "4rem" }}>Community Partners</h1>
+            <h1 className="cpheading">Community Partners</h1>
             <div className="row">
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
-              <br />
             </div>
-            <br/>
             <div className="row">
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
-              <br />
             </div>
-            <br/>
             <div className="row">
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
               <div className="col-sm">
                 <div className="partnersbox">
                   <img src={gdgicon} alt="gdgicon" className="cpimgfix" />
-                  <h4>Google Developer Clubs</h4>
-                  <p>Siliguri Institute Of Technology</p>
+                  <h5 className="text-muted">Google Developer Student Clubs</h5>
+                  <h6 className="text-muted">Siliguri Institute Of Technology</h6>
                 </div>
               </div>
-              <br />
             </div>
-            <br/>
           </center>
-          <br />
         </div>
       </section>
     </>

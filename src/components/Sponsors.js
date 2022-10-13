@@ -5,56 +5,59 @@ import "../stylesheet/Sponsor.css";
 const Sponsors = () => {
   return (
     <section id="sponsors">
+      <h1 className="sponsor-heading">Sponsors</h1>
       <div className="container">
-        <br />
-        <center>
-          <h1>Sponsors</h1>
-        </center>
         <div className="row">
           <center>
-            <div className="cardbox1">
-              <img src={googledevelopers} className="cardimgfix" style={{marginTop:"120px"}} alt="" />
-              <div className="bottombox1" style={{marginTop:"3.1cm"}}>
-                <p style={{color:"white"}}>Title Sponsor</p>
+            <div className="col-sm">
+              <div className="card sponsorcards card1">
+                <img
+                  src={googledevelopers}
+                  className="card-img-top img1"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title title1">Title Sponsor</h5>
+                </div>
               </div>
             </div>
           </center>
         </div>
-        <br />
         <div className="row">
           <center>
-            <div className="cardbox2">
-              <img src={sitlogo} className="cardimgfix" style={{marginTop:"30px"}} alt="" />
-              <div className="bottombox2" style={{marginTop:"75px"}}>
-                <p>Gold Sponsor</p>
+            <div className="col-sm">
+              <div className="card sponsorcards card2">
+                <img src={sitlogo} className="card-img-top img2" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title title2">Gold Sponsor</h5>
+                </div>
               </div>
             </div>
           </center>
         </div>
-        <br />
         <center>
           <div className="row">
             <div className="col-sm">
-              <div className="cardbox3">
-                <img src={sitlogo} className="cardimgfix" alt="" />
-                <div className="bottombox3">
-                  <p>Silver Sponsor</p>
+              <div className="card sponsorcards card3">
+                <img src={sitlogo} className="card-img-top img2" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title title3">Silver Sponsor</h5>
                 </div>
               </div>
             </div>
             <div className="col-sm">
-              <div className="cardbox3">
-                <img src={sitlogo} className="cardimgfix" alt="" />
-                <div className="bottombox3">
-                  <p>Silver Sponsor</p>
+              <div className="card sponsorcards card3">
+                <img src={sitlogo} className="card-img-top img2" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title title3">Silver Sponsor</h5>
                 </div>
               </div>
             </div>
             <div className="col-sm">
-              <div className="cardbox3">
-                <img src={sitlogo} className="cardimgfix" alt="" />
-                <div className="bottombox3">
-                  <p>Silver Sponsor</p>
+              <div className="card sponsorcards card3">
+                <img src={sitlogo} className="card-img-top img2" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title title3">Silver Sponsor</h5>
                 </div>
               </div>
             </div>
