@@ -35,7 +35,7 @@ const Sponsors = () => {
             </div>
           </center>
         </div>
-        <center>
+        {/* <center>
           <div className="row">
             <div className="col-sm">
               <div className="card sponsorcards card3">
@@ -62,7 +62,7 @@ const Sponsors = () => {
               </div>
             </div>
           </div>
-        </center>
+        </center> */}
       </div>
     </section>
   );
