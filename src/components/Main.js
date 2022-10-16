@@ -15,7 +15,7 @@ export default function main() {
       <Navbar active="home" />
       <Hero />
       <WhatIsDevFest />
-      {/* <Speakers/> */}
+      <Speakers/>
       {/* <Faq /> */}
       <Testimonials />
       <Sponsors />

@@ -127,13 +127,13 @@ export default function Team() {
                 <p className="organiser-name">{item.organiserName}</p>
                 <p className="organiser-post">{item.organiserPost}</p>
                 <div className="members-social">
-                  <a href={item.organiserLinkedin} target="_blank">
+                  <a href={item.organiserLinkedin}>
                     <BsLinkedin className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.organiserGithub} target="_blank">
+                  <a href={item.organiserGithub}>
                     <BsGithub className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.organiserInstab} target="_blank">
+                  <a href={item.organiserInstab}>
                     <FiInstagram
                       className="member-social-icon"
                       color="white"
@@ -154,13 +154,13 @@ export default function Team() {
                 <p className="member-name">{item.memberName}</p>
                 <p className="member-post">{item.memberPost}</p>
                 <div className="members-social">
-                  <a href={item.memberLinkedin} target="_blank">
+                  <a href={item.memberLinkedin}>
                     <BsLinkedin className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.memberGithub} target="_blank">
+                  <a href={item.memberGithub}>
                     <BsGithub className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.memberInstab} target="_blank">
+                  <a href={item.memberInstab}>
                     <FiInstagram
                       className="member-social-icon"
                       color="white"
