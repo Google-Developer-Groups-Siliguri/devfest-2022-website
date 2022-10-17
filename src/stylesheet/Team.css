@@ -103,7 +103,7 @@
     transition: 0.1s;
 }
 
-/* @media only screen and (max-width:540px) {
+@media only screen and (max-width:540px) {
     .team-container {
         margin: 1rem 2rem 1rem 2rem;
     }
@@ -311,4 +311,4 @@
         font-size: 1rem;
     }
 
-} */
+}

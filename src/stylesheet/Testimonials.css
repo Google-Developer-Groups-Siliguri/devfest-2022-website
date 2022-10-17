@@ -1,6 +1,6 @@
 .testimonials-container{
     background: #EDF3FF;
-    height: max-content;
+    height: 60vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -40,10 +40,11 @@
 }
 
 .testimonials{
-    margin-top: -8rem;
+    margin-top: -2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: visible !important;
 }
 
 .testimonial-container{
@@ -55,35 +56,51 @@
 
 .testimonial-container-prev{
     position: relative;
-    top: 8rem;
-    left: -1rem;
-    width: 80%;
+    top: 1.5rem;
+    width: 85%;
     opacity: 0.4;
     display: flex;
     flex-direction: column;
     z-index: 1;
 }
 
+.testimonial-container-prev .testimonial-item{
+    box-shadow: none;
+}
+
+.testimonial-container-next .testimonial-item{
+    box-shadow: none;
+}
+
 .testimonial-container-next{
     position: relative;
-    bottom: 8rem;
-    left: -1rem;
-    width: 80%;
+    bottom: 1.5rem;
+    width: 85%;
     opacity: 0.4;
     display: flex;
     flex-direction: column;
     z-index: 1;
+}
+
+.testimonial-carousel{
+    width: 80%;
+    overflow: visible;
+}
+
+.carousel-shadow{
+    box-shadow: 1px 1px 20px 0px rgba(124, 124, 124, 0.452);
+    border-radius: 0.8rem;
 }
 
 .testimonial-item{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background: white;
     padding: 1rem;
-    width: 80%;
+    border: none;
     border-radius: 0.5rem;
-    padding: 2rem;
-    box-shadow: 1px 1px 20px 0px rgba(124, 124, 124, 0.452);
+    padding: 2.5rem;
 }
 
 .testimonial-item h1{
@@ -113,6 +130,18 @@
     width: 100%;
 }
 
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px; 
+    padding: 0;
+    cursor: pointer;
+    margin-top: -7rem;
+    background-color: #2073f8;
+    border: 0;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 100%; 
+}
 
 @media only screen and (max-width:480px) {
     .testimonials-container{
