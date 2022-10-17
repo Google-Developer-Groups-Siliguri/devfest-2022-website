@@ -24,18 +24,26 @@ export default function Ticket() {
             </li>
             <li>Tickets are non-refundable.
             </li>
-            <li>It’s important to us that everyone who attends Cloud Community Days Siliguri is treated equally, respected, and protected. By attending, you agree to abide by our Terms.</li>
+            <li>You have to show your  ticket to the volunteers and make sure your entry.</li>
+            <li>You can’t copy  ticket from others because each tickets have their specific QR code.</li>
+            <li>Those who will get their tickets only they will attend .</li>
+            <li>The ticket is entirely for both the days.</li>
+            <li>It’s important to us that everyone who attends Devfest 2022 Siliguri is treated equally, respected, and protected. By attending, you agree to abide by our Terms.</li>
           </ul>
         </div>
         <br />
         <div className='container'>
           <h2>Perks 🚀 </h2>
           <ul className='info'>
-            <li>Hands on workshops🚀
+            <li>Hands on workshops🎈
             </li>
             <li>Interaction with the community 🙌
             </li>
             <li>Learn, Enjoy and Participate 🏆</li>
+            <li>Grow your knowledge 📈</li>
+            <li>Learn to optimise your resources 📚</li>
+            <li>Exposure your idea 💡</li>
+            <li>Test your competence 🎯</li>
           </ul>
         </div>
       </div>

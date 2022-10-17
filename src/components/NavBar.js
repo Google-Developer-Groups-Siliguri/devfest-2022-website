@@ -7,7 +7,7 @@ export default function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <img src={logo} id="navbar-logo" alt="" className="mx-5 my-1 px-3 py-1" />
+                <Link to="/" ><img src={logo} id="navbar-logo" alt="" className="mx-5 my-1 px-3 py-1" /></Link>
                 <button className="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     {/* <span className="navbar-toggler-icon"></span> */}
                     <HiMenu className="navbar-toggler-icon" />

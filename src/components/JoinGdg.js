@@ -18,10 +18,7 @@ const JoinGdg = () => {
                   <div className="inner">
                     <h1 className="joingdg-h1">Join GDG Siliguri</h1>
                     <p className="joingdg-p">
-                      DevFests are local tech conferences hosted by Google
-                      Developer Groups (GDG) around the world. Each DevFest
-                      event is crafted by its local organizers to fit the needs
-                      and interests of its local developer community.
+                    GDG Siliguri is based out of Siliguri and handles the geographic region of North Bengal and Sikkim. We are a group consisting of both student and professional developers and we conduct a lot of events to empower the local tech community. These include tech talks, hackathons, codelabs, workshops and more.
                     </p>
                     <button className="btn btn-primary">Join Now</button>
                   </div>

@@ -22,9 +22,9 @@ export default function Footer() {
         <div className="main-footer-bottom">
           <p>
             Reach out to us at:{" "}
-            <a href="mailto:support@devfestsiliguri.in">
+            <a href="mailto:gdgsiliguri@gmail.com">
               {" "}
-              support@devfestsiliguri.in
+              gdgsiliguri@gmail.com
             </a>
           </p>
           <a style={{ textDecoration: "none" }} href="">

@@ -3,23 +3,23 @@ import "../stylesheet/Faq.css";
 const schemeFaq = [
     {
         id: 1,
-        faq: "What is a cochlear implant?",
-        des: "The cochlear implant is a prosthetic device, a part of which is surgically implanted inside the cochlea. Cochlear implants have been found to be beneficial for children with severe to profound hearing loss in both ears who do not benefit adequately with hearing aids but have an intact auditory nerve. While a hearing aid provides amplified sound energy to the ear, the cochlear implant directly provides electrical stimulation to the nerve endings in the cochlea",
+        faq: "What is Devfest?",
+        des: "GDG DevFests are large-scale community-run events that can offer speaker sessions across Google product areas, all-day hack-a-thons, or both. It is a platform for developers, entrepreneurs, and tech enthusiasts to come together and get inspired by the latest technologies.",
     },
     {
         id: 2,
-        faq: "What does the surgery involve?",
-        des: "The surgery for the cochlear implant may take about 1-2 hours. The surgeon makes an incision behind the pinna and then surgically implants the electrodes inside the cochlea and the receiver-stimulator are implanted in the mastoid bone behind the ear. The patient may have to remain in hospital for 2-3 days.",
+        faq: "Who is GDG?",
+        des: "Google Developer Groups(GDG) are a group of local developers who are interested in Google products and APIs. We host various technical events for developers ranging from keynote sessions to hackathons. Our main aim is to learn more and keep growing",
     },
     {
         id: 3,
-        faq: "Will a cochlear implant restore normal hearing in children who are deaf?",
-        des: "No, a cochlear implant does not restore normal hearing. It is a communication tool but not a 'cure' for deafness. An implant, supplemented with Speech& Language therapy and Auditory Verbal therapy, can help the children recognize sound, including speech to use it for communication and education purposes.",
+        faq: "Where can I find updates related to Devfest Siliguri?",
+        des: "You can follow us on our Social Media links which you can find below - https://linktr.ee/gdgsiliguri",
     },
     {
         id: 4,
-        faq: "What sounds can be heard with a cochlear implant?",
-        des: "Your child will probably hear most sounds of medium-to-high loudness. Patients often report that they can hear footsteps, slamming of doors, ringing telephones car engines, barking dogs, crackers, and various other environmental sounds.",
+        faq: "How can I attend DevFest Siliguri ? How much does it cost?",
+        des: "GDG Siliguri is a Free event. There are no costs for the ticket to this event. However, you must apply to be a participant in the event, and only upon a positive review of your application, you shall be allowed to claim a ticket. You can apply to be a participant by clicking the Register button on this website's home page.",
     },
 ];
 

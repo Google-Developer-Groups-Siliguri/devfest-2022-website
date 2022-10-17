@@ -16,7 +16,7 @@ export default function main() {
       <Hero />
       <WhatIsDevFest />
       <Speakers/>
-      {/* <Faq /> */}
+      <Faq />
       <Testimonials />
       <Sponsors />
       <CommunityPartners />
