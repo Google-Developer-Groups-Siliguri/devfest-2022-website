@@ -44,7 +44,7 @@ export default function Testimonials() {
         </div>
         <div className="carousel-inner carousel-shadow">
           <div className="carousel-item active">
-            <div className="carousel-testimonial">
+            <>
               <div className="testimonial-item">
                 <h1>One of the best tech event I have attended!</h1>
                 <p>
@@ -59,7 +59,7 @@ export default function Testimonials() {
                   </div>
                 </div>
               </div>
-            </div>
+            </>
           </div>
           <div className="carousel-item">
             <>
