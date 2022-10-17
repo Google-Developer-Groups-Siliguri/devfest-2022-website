@@ -24,7 +24,10 @@ export default function Footer2() {
                     </a>
                     <div className="main-footer-socials">
                         <p>Follow us on</p>
-                        <BsTwitter /> <BsLinkedin /> <FiInstagram /> <BsTwitter />
+                        <a href="https://twitter.com/GDGSiliguri"><BsTwitter /> </a>
+                        <a href="https://www.linkedin.com/company/gdg-siliguri/"><BsLinkedin /> </a>
+                        <a href="https://www.instagram.com/gdgsiliguri/"><FiInstagram /> </a>
+                        <a href="https://www.facebook.com/GDGSiliguri"><BsFacebook /></a>
                     </div>
                 </div>
             </div>
