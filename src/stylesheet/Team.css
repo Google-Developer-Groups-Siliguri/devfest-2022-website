@@ -41,7 +41,7 @@
 }
 
 .organiser-card {
-    width: max-content;
+    width: 100%;
     align-self: center;
 }
 
@@ -68,11 +68,13 @@
 }
 
 .member-card img {
-    width: 95px;
+    width: 100px;
+    border-radius: 100px;
 }
 
 .organiser-card img {
-    width: 165px;
+    width: 150px;
+    border-radius: 100px;
 }
 
 .member-name {
@@ -101,7 +103,7 @@
     transition: 0.1s;
 }
 
-@media only screen and (max-width:540px) {
+/* @media only screen and (max-width:540px) {
     .team-container {
         margin: 1rem 2rem 1rem 2rem;
     }
@@ -309,4 +311,4 @@
         font-size: 1rem;
     }
 
-}
+} */

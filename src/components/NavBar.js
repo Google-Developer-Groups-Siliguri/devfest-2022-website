@@ -23,9 +23,9 @@ export default function Navbar(props) {
                         <li className="nav-item">
                             <Link to="/tickets" className={`nav-link ${props.active === "tickets" ? "active" : ""}`} >Tickets</Link>
                         </li>
-                        {/* <li className="nav-item">
-                    <Link to="/team" className={`nav-link ${props.active==="team"?"active":""}`} >Team</Link>
-                    </li> */}
+                        <li className="nav-item">
+                            <Link to="/team" className={`nav-link ${props.active==="team"?"active":""}`} >Team</Link>
+                        </li>
                         <li className="nav-item">
                             <Link to="/contact" className={`nav-link ${props.active === "contact" ? "active" : ""}`} >Contact US</Link>
                         </li>
