@@ -17,10 +17,10 @@ export default function main() {
       <Hero />
       <WhatIsDevFest />
       <Speakers/>
-      <Faq />
-      <Testimonials />
       <Sponsors />
       <CommunityPartners />
+      <Testimonials />
+      <Faq />
       <JoinGdd />
       <Contact_Map/>
       <Footer2 />
