@@ -59,7 +59,7 @@
 .main-footer-socials {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   gap: 1rem;
 }
 
@@ -185,9 +185,23 @@
   }
 
   .main-footer-socials {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     display: flex;
     align-items: center;
     gap: 1rem;
+  }
+}
+@media(max-width:770px){
+  .footer-p{
+    text-align: center;
+  }
+  .footer-a{
+    text-align: center;
+  }
+  .main-footer-socials {
+    justify-content: center;
+  }
+  .footer-logo{
+    margin: auto;
   }
 }

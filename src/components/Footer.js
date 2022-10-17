@@ -30,7 +30,7 @@ export default function Footer() {
               gdgsiliguri@gmail.com
             </a>
           </p>
-          <a style={{ textDecoration: "none" }} href="">
+          <a style={{ textDecoration: "none" }} href="https://developers.google.com/community-guidelines">
             <p>Community Guidelines</p>
           </a>
           <div className="main-footer-socials">
