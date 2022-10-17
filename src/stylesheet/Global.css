@@ -1,4 +1,4 @@
-.btn-df{
+.btn-df {
     color: white;
     background-color: #4387F6;
     width: 26%;
@@ -8,12 +8,41 @@
     padding: 0;
     border-radius: 3px;
 }
-.btn-df:hover{
+
+.btn-df:hover {
     color: white;
     background-color: #0c65f4;
 }
+
 @media(max-width:560px) {
-    .btn-df{
+    .btn-df {
         width: 100%;
     }
+}
+
+@media (max-width:530px) {
+    .head {
+        font-size: 6px;
+    }
+
+    .head-1 {
+        font-size: 10px;
+    }
+
+}
+
+.head {
+    font-size: 60px;
+}
+
+.head-1 {
+    font-size: 20px;
+}
+
+.head-2 {
+    font-size: 18px;
+}
+
+.btnLink:hover {
+    color: aliceblue;
 }
