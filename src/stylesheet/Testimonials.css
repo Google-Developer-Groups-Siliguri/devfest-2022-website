@@ -1,9 +1,8 @@
 .testimonials-container{
     background: #EDF3FF;
-    height: 60vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     padding-left: 5rem;
     padding-top: 5rem;
 }
@@ -131,23 +130,35 @@
 }
 
 .carousel-indicators [data-bs-target] {
+    position: relative;
     width: 10px;
     height: 10px; 
     padding: 0;
     cursor: pointer;
-    margin-top: -7rem;
-    background-color: #2073f8;
+    margin-top: -30%;
+    background-color: #4387F6;
     border: 0;
-    opacity: .5;
     transition: opacity .6s ease;
     border-radius: 100%; 
 }
 
+
 @media only screen and (max-width:480px) {
     .testimonials-container{
-        grid-template-columns: 1fr;
-        padding-left: 1rem;
-        padding-top: 1rem;
+       display: flex;
+       flex-direction: column;
+       gap: 5rem;
+       align-items: center;
+       padding: 0;
+       height: 60vh;
+    }
+
+    .carousel-indicators{
+        margin-bottom:-35%;
+    }
+
+    .testimonials-title{
+        margin-top: 3rem;
     }
 
     .title{
@@ -178,18 +189,17 @@
     .testimonial-item{
         align-self: center;
         padding: 0.8rem;
-        width: 80%;
     }
     
     .testimonial-item h1{
         color: black;
-        font-size: .8rem !important;
+        font-size: 1rem !important;
     }
     
     .testimonial-item p{
         margin-top: -0.2rem;
-        width: 80%;
-        font-size: .5rem;
+        width: 100%;
+        font-size: .8rem;
     }
 
     .testimonial-container-prev{
@@ -208,6 +218,10 @@
         align-items: center;
         gap: 1rem;
     }
+
+    .attendee-name{
+        margin-top: 1rem;
+    }
     
     .attendee img{
         width: 20%;
@@ -220,10 +234,22 @@
 
 @media only screen and (min-width:481px) and (max-width:768px) {
     .testimonials-container{
-        grid-template-columns: 1fr;
-        padding-left: 1rem;
-        padding-top: 1rem;
-    }
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+        padding: 0;
+        height: 80vh;
+     }
+ 
+     .carousel-indicators{
+         margin-bottom:-35%;
+     }
+ 
+     .testimonials-title{
+         margin-top: 1rem;
+         margin-bottom: 2rem;
+     }
 
     .title{
         align-items: center;
@@ -236,12 +262,12 @@
     }
 
     .message{
-        margin-left: 28rem;
+        margin-left: 20rem;
         width: 8%;
     }
     
     .scratch{
-        margin-left: 15rem;
+        margin-left:10rem;
         width: 10%;
     }
 
@@ -253,7 +279,90 @@
     .testimonial-item{
         align-self: center;
         padding: 0.8rem;
+    }
+    
+    .testimonial-item h1{
+        color: black;
+        font-size: 1.5rem !important;
+    }
+    
+    .testimonial-item p{
+        margin-top: -0.2rem;
         width: 80%;
+        font-size: 1rem;
+    }
+
+    .testimonial-container-prev{
+        width: 80%;
+        top: 7rem;
+        left: 0;
+    }
+
+    .testimonial-container-next{
+        bottom: 7rem;
+        left: 0;
+    }
+    
+    .attendee{
+        margin-top: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .attendee img{
+        width: 15%;
+    }
+    
+    .attendee-name h3{
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+   .testimonials-container{
+    gap: 3rem;
+    height: 60vh;
+   }
+ 
+     .carousel-indicators{
+         margin-bottom:3rem;
+     }
+ 
+     .testimonials-title{
+         margin-top: 1rem;
+         margin-bottom: 2rem;
+     }
+
+    .title{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title h1{
+        font-size: 2.5rem !important;
+        width: max-content;
+    }
+
+    .message{
+        margin-left: 20rem;
+        width: 10%;
+    }
+    
+    .scratch{
+        margin-left:6rem;
+        width: 15%;
+    }
+
+    .testimonials{
+        margin-top: -3rem;
+        width: 100%;
+    }
+
+    .testimonial-item{
+        align-self: center;
+        padding: 0.8rem;
     }
     
     .testimonial-item h1{
