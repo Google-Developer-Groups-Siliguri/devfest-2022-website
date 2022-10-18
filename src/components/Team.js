@@ -166,7 +166,7 @@ export default function Team() {
               <img src={item.src} alt="" />
               <div className="team-desc">
                 <p className="organiser-name">{item.organiserName}</p>
-                <p className="organiser-post">{item.organiserPost}</p>
+                {/* <p className="organiser-post">{item.organiserPost}</p> */}
                 <div className="members-social">
                   <a href={item.organiserLinkedin}>
                     <BsLinkedin className="member-social-icon" color="black" />
@@ -195,7 +195,7 @@ export default function Team() {
               <img src={item.src} alt="" />
               <div className="team-desc">
                 <p className="member-name">{item.memberName}</p>
-                <p className="member-post">{item.memberPost}</p>
+                {/* <p className="member-post">{item.memberPost}</p> */}
                 <div className="members-social">
                   <a href={item.memberLinkedin}>
                     <BsLinkedin className="member-social-icon" color="black" />

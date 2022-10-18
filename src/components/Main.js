@@ -19,7 +19,7 @@ export default function main() {
       <Speakers/>
       <Sponsors />
       <CommunityPartners />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Faq />
       <JoinGdd />
       <Contact_Map/>

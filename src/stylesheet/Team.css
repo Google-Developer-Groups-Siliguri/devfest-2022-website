@@ -59,7 +59,7 @@
 .organiser-name {
     font-size: 2rem;
     color: #4387f6;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
 }
 
 .organiser-post {
@@ -80,7 +80,7 @@
 .member-name {
     font-size: 1.2rem;
     color: #4387f6;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -92,6 +92,7 @@
 .members-social {
     display: flex;
     gap: 1rem;
+    justify-content: center;
 }
 
 .member-social-icon {
