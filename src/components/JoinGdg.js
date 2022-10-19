@@ -20,7 +20,9 @@ const JoinGdg = () => {
                     <p className="joingdg-p">
                     GDG Siliguri is based out of Siliguri and handles the geographic region of North Bengal and Sikkim. We are a group consisting of both student and professional developers and we conduct a lot of events to empower the local tech community. These include tech talks, hackathons, codelabs, workshops and more.
                     </p>
+                    <a href="https://gdg.community.dev/gdg-siliguri/">
                     <button className="btn btn-primary">Join Now</button>
+                    </a>
                   </div>
                 </div>
               </div>

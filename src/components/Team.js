@@ -157,7 +157,7 @@ export default function Team() {
       <div className="team-container">
         <div className="team-container-title">
           <h1>Team</h1>
-          <p>Meet our devFest Siliguri 2022 organisers and volounteers </p>
+          <p>Meet our DevFest Siliguri 2022 organisers and volunteers </p>
         </div>
         <h1>Organisers</h1>
         <div className="organisers row">
@@ -174,7 +174,7 @@ export default function Team() {
                   <a href={item.organiserGithub}>
                     <BsGithub className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.organiserInstab}>
+                  <a href={item.organiserTwitter}>
                     <BsTwitter
                       className="member-social-icon"
                       color="white"
@@ -203,7 +203,7 @@ export default function Team() {
                   <a href={item.memberGithub}>
                     <BsGithub className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.memberInstab}>
+                  <a href={item.memberTwitter}>
                     <BsTwitter
                       className="member-social-icon"
                       color="white"
