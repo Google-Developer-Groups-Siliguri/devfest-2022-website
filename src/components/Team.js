@@ -71,7 +71,7 @@ export default function Team() {
     {
       src: require("../assets/images/team/Subhranil Sarkar.JPG"),
       memberName: "Subhranil Sarkar",
-      memberPost: "Student | CSE - 3th Year",
+      memberPost: "Student | ECE - 3th Year",
       memberGithub: "https://github.com/subhranilsarkar-dev",
       memberTwitter: "https://twitter.com/subhranilsarkr?t=m2Wf-6DtLE3Yzxov84TJ7w&s=09",
       memberLinkedin: "https://www.linkedin.com/in/subhranil-sarkar",
@@ -79,7 +79,7 @@ export default function Team() {
     {
       src: require("../assets/images/team/Swarup Das.jpg"),
       memberName: "Swarup Das ",
-      memberPost: "Student | CSE - 3th Year",
+      memberPost: "Student | ECE - 3th Year",
       memberGithub: "https://www.github.com/Das-Swarup",
       memberTwitter: "https://www.twitter.com/RonyzGameShow",
       memberLinkedin: "https://www.linkedin.com/in/swarup-das-8bb857200",
@@ -135,7 +135,7 @@ export default function Team() {
     {
       src: require("../assets/images/team/Samadreeta Mukherjee.jpg"),
       memberName: "Samadreeta Mukherjee ",
-      memberPost: "Student | CSE - 3th Year",
+      memberPost: "Student | BCA - 3th Year",
       memberGithub: "https://www.github.com/samadreeta001",
       memberTwitter: "https://www.twitter.com/SardonicYuri",
       memberLinkedin: "https://www.linkedin.com/in/samadreeta-mukherjee-08217a240/",
@@ -143,10 +143,18 @@ export default function Team() {
     {
       src: require("../assets/images/team/Babin Chakrabarty.JPG"),
       memberName: "Babin Chakrabarty",
-      memberPost: "Student | CSE - 3th Year",
+      memberPost: "Student | BA - 2nd Year",
       memberGithub: "https://github.com/bottleninja4gh",
       memberTwitter: "https://twitter.com/bottleninja4t?t=sCS-n6Co79BnLLWEh39SGg&s=09",
       memberLinkedin: "https://www.linkedin.com/in/babin-chakrabarty-598401192",
+    },
+    {
+      src: require("../assets/images/team/Sayan Malakar.jpg"),
+      memberName: "Sayan Malakar",
+      memberPost: "Student | BA - 2nd Year",
+      memberGithub: "https://github.com/sayan681",
+      memberTwitter: "https://twitter.com/SayanMalakar17",
+      memberLinkedin: "https://www.linkedin.com/in/sayan-malakar-833183221",
     }
       
   ];
