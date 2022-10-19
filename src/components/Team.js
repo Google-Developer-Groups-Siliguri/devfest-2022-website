@@ -176,13 +176,13 @@ export default function Team() {
                 <p className="organiser-name">{item.organiserName}</p>
                 {/* <p className="organiser-post">{item.organiserPost}</p> */}
                 <div className="members-social">
-                  <a href={item.organiserLinkedin}>
+                  <a href={item.organiserLinkedin} target="_blank">
                     <BsLinkedin className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.organiserGithub}>
+                  <a href={item.organiserGithub} target="_blank">
                     <BsGithub className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.organiserTwitter}>
+                  <a href={item.organiserTwitter} target="_blank">
                     <BsTwitter
                       className="member-social-icon"
                       color="white"
@@ -205,13 +205,13 @@ export default function Team() {
                 <p className="member-name">{item.memberName}</p>
                 {/* <p className="member-post">{item.memberPost}</p> */}
                 <div className="members-social">
-                  <a href={item.memberLinkedin}>
+                  <a href={item.memberLinkedin} target="_blank">
                     <BsLinkedin className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.memberGithub}>
+                  <a href={item.memberGithub} target="_blank">
                     <BsGithub className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.memberTwitter}>
+                  <a href={item.memberTwitter} target="_blank">
                     <BsTwitter
                       className="member-social-icon"
                       color="white"

@@ -10,7 +10,7 @@
 .team-container-title {
     align-self: center;
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .team-container h1 {
@@ -69,12 +69,12 @@
 
 .member-card img {
     width: 100px;
-    border-radius: 100px;
+    border-radius: 200px;
 }
 
 .organiser-card img {
     width: 150px;
-    border-radius: 100px;
+    border-radius: 200px;
 }
 
 .member-name {
