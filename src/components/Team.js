@@ -174,7 +174,7 @@ export default function Team() {
                   <a href={item.organiserGithub}>
                     <BsGithub className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.organiserInstab}>
+                  <a href={item.organiserTwitter}>
                     <BsTwitter
                       className="member-social-icon"
                       color="white"
@@ -203,7 +203,7 @@ export default function Team() {
                   <a href={item.memberGithub}>
                     <BsGithub className="member-social-icon" color="black" />
                   </a>
-                  <a href={item.memberInstab}>
+                  <a href={item.memberTwitter}>
                     <BsTwitter
                       className="member-social-icon"
                       color="white"
