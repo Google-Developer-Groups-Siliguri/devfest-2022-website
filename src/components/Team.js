@@ -157,7 +157,7 @@ export default function Team() {
       <div className="team-container">
         <div className="team-container-title">
           <h1>Team</h1>
-          <p>Meet our devFest Siliguri 2022 organisers and volounteers </p>
+          <p>Meet our DevFest Siliguri 2022 organisers and volunteers </p>
         </div>
         <h1>Organisers</h1>
         <div className="organisers row">
