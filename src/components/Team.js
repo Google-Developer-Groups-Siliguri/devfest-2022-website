@@ -61,6 +61,15 @@ export default function Team() {
       memberLinkedin: "https://www.linkedin.com/in/keshav-agarwal-b39322192",
     },
     {
+      src: require("../assets/images/team/Sayan Malakar.jpg"),
+      memberName: "Sayan Malakar",
+      memberPost: "Student | BA - 2nd Year",
+      memberGithub: "https://github.com/sayan681",
+      memberTwitter: "https://twitter.com/SayanMalakar17",
+      memberLinkedin: "https://www.linkedin.com/in/sayan-malakar-833183221",
+    }
+    ,
+    {
       src: require("../assets/images/team/Deep Dhar.jpg"),
       memberName: "Deep Dhar",
       memberPost: "Student | CSE - 4th Year",
@@ -155,16 +164,7 @@ export default function Team() {
       memberGithub: "https://github.com/bottleninja4gh",
       memberTwitter: "https://twitter.com/bottleninja4t?t=sCS-n6Co79BnLLWEh39SGg&s=09",
       memberLinkedin: "https://www.linkedin.com/in/babin-chakrabarty-598401192",
-    },
-    {
-      src: require("../assets/images/team/Sayan Malakar.jpg"),
-      memberName: "Sayan Malakar",
-      memberPost: "Student | BA - 2nd Year",
-      memberGithub: "https://github.com/sayan681",
-      memberTwitter: "https://twitter.com/SayanMalakar17",
-      memberLinkedin: "https://www.linkedin.com/in/sayan-malakar-833183221",
     }
-
   ];
 
   return (

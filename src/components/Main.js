@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from "../components/NavBar"
 import Faq from "../components/Faq";
 import Hero from "../components/Hero";
+import Footer from "../components/Footer";
 import Footer2 from "../components/Footer2";
 import WhatIsDevFest from "../components/WhatIsDevFest";
 import Speakers from "../components/Speakers";
