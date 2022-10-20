@@ -13,7 +13,7 @@ export default function Ticket() {
           <br />
 
           <div>
-            <button disabled className="btns btn-secondary" style={{ backgroundColor: "#a0a6ab" }}>Get Ticket</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc33RWi0cYkncSjS6TKcXDWoNj_3O-1halpaxc-SW7l2wkFdA/viewform" target="_blank" className="btns btn-secondary" >Get Ticket</a>
           </div>
         </div>
         <br />
