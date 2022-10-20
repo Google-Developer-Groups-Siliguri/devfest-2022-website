@@ -14,10 +14,10 @@ export default function Footer() {
         <h3>Follow #DevFestSiliguri for updates,</h3>
         <h3>recaps, and news.</h3>
         <div className="subfooter-social-icons">
-            <a href="https://twitter.com/GDGSiliguri" className="text-white"><BsTwitter /> </a>
-            <a href="https://www.linkedin.com/company/gdg-siliguri/" className="text-white"><BsLinkedin /> </a>
-            <a href="https://www.instagram.com/gdgsiliguri/" className="text-white"><FiInstagram /> </a>
-            <a href="https://www.facebook.com/GDGSiliguri" className="text-white"><BsFacebook /></a>
+          <a href="https://twitter.com/GDGSiliguri" className="text-white"><BsTwitter /> </a>
+          <a href="https://www.linkedin.com/company/gdg-siliguri/" className="text-white"><BsLinkedin /> </a>
+          <a href="https://www.instagram.com/gdgsiliguri/" className="text-white"><FiInstagram /> </a>
+          <a href="https://www.facebook.com/GDGSiliguri" className="text-white"><BsFacebook /></a>
         </div>
       </div>
       <div className="main-footer">
@@ -35,7 +35,6 @@ export default function Footer() {
           </a>
           <div className="main-footer-socials">
             <p>Follow us on</p>
-            <a href="https://twitter.com/GDGSiliguri"><BsTwitter /> </a>
             <a href="https://www.linkedin.com/company/gdg-siliguri/"><BsLinkedin /> </a>
             <a href="https://www.instagram.com/gdgsiliguri/"><FiInstagram /> </a>
             <a href="https://www.facebook.com/GDGSiliguri"><BsFacebook /></a>

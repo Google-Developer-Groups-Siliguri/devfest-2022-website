@@ -31,7 +31,7 @@ export default function Team() {
       organiserGithub: "https://github.com/srv09",
       organiserTwitter: "https://twitter.com/SouravD48488780?t=M_h75Zg9PHjh-GK0RvkaCg&s=09",
       organiserLinkedin: "https://www.linkedin.com/in/sourav-das-64227a1a2/",
-    }    
+    }
   ]
 
 
@@ -156,7 +156,7 @@ export default function Team() {
       memberTwitter: "https://twitter.com/SayanMalakar17",
       memberLinkedin: "https://www.linkedin.com/in/sayan-malakar-833183221",
     }
-      
+
   ];
 
   return (
@@ -165,7 +165,7 @@ export default function Team() {
       <div className="team-container">
         <div className="team-container-title">
           <h1>Team</h1>
-          <p>Meet our DevFest Siliguri 2022 organisers and volunteers </p>
+          <p>Meet our DevFest Siliguri 2022 organisers and volunteers. </p>
         </div>
         <h1>Organisers</h1>
         <div className="organisers row">

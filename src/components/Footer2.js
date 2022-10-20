@@ -9,7 +9,7 @@ import { BsLinkedin } from "react-icons/bs";
 export default function Footer2() {
     return (
         <div id="footer" className="footer-container">
-            <hr />
+            <hr style={{ marginTop: "0px" }} />
             <div className="main-footer">
                 <img className="footer-logo" src={logo} alt="" />
                 <div className="main-footer-bottom row">

@@ -9,11 +9,11 @@ export default function Ticket() {
         <Navbar active="tickets" />
         <div className='container ticket mt-5'>
           <p className='dev-heading'>Book your seat</p>
-          <span className='info'>Book your ticket to DevFest’22 at Siliguri Institute of Technology and experience the community like no other</span>
+          <span className='info'>Book your ticket to DevFest’22 at Siliguri Institute of Technology and experience the community like no other.</span>
           <br />
 
           <div>
-            <button disabled className="btns btn-secondary">Get Ticket</button>
+            <button disabled className="btns btn-secondary" style={{ backgroundColor: "#a0a6ab" }}>Get Ticket</button>
           </div>
         </div>
         <br />
