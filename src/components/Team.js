@@ -53,6 +53,14 @@ export default function Team() {
       memberLinkedin: "https://www.linkedin.com/in/abhilasha-gupta-829ba7190/",
     },
     {
+      src: require("../assets/images/team/Keshav Agarwal.jpeg"),
+      memberName: "Keshav Agarwal",
+      memberPost: "Student | CSE - 4th Year",
+      memberGithub: "https://github.com/InfamousBolt",
+      memberTwitter: "https://www.twitter.com/keshav21681346",
+      memberLinkedin: "https://www.linkedin.com/in/keshav-agarwal-b39322192",
+    },
+    {
       src: require("../assets/images/team/Deep Dhar.jpg"),
       memberName: "Deep Dhar",
       memberPost: "Student | CSE - 4th Year",
