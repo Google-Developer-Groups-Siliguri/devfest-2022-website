@@ -1,6 +1,9 @@
 import React from "react";
 import googledevelopers from "../assets/images/googledevelopers.png";
 import sitlogo from "../assets/images/sitlogo.png";
+import taskade from "../assets/images/SponsorsLogo/taskade.png";
+import assetmantle from "../assets/images/SponsorsLogo/assetmantle.jpeg";
+import kalimpongstore from "../assets/images/SponsorsLogo/kalimpongstore.png"; 
 import "../stylesheet/Sponsor.css";
 const Sponsors = () => {
   return (
@@ -35,34 +38,34 @@ const Sponsors = () => {
             </div>
           </center>
         </div>
-        {/* <center>
+        <center>
           <div className="row">
             <div className="col-sm">
               <div className="card sponsorcards card3">
-                <img src={sitlogo} className="card-img-top img2" alt="..." />
+                <img src={taskade} className="card-img-top img2" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title title3">Silver Sponsor</h5>
+                  <h5 className="card-title title3">Taskade</h5>
                 </div>
               </div>
             </div>
             <div className="col-sm">
               <div className="card sponsorcards card3">
-                <img src={sitlogo} className="card-img-top img2" alt="..." />
+                <img src={assetmantle} className="card-img-top img2" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title title3">Silver Sponsor</h5>
+                  <h5 className="card-title title3">Asset Mantle</h5>
                 </div>
               </div>
             </div>
             <div className="col-sm">
               <div className="card sponsorcards card3">
-                <img src={sitlogo} className="card-img-top img2" alt="..." />
+                <img src={kalimpongstore} className="card-img-top img2" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title title3">Silver Sponsor</h5>
+                  <h5 className="card-title title3">Himalayas Authentic</h5>
                 </div>
               </div>
             </div>
           </div>
-        </center> */}
+        </center>
       </div>
     </section>
   );
