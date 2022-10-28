@@ -101,6 +101,12 @@ function MoreSpeakers() {
       spekerPost: "Founder GeoMeo Informatics, GDG Organizer",
       speakerProfile: "https://www.linkedin.com/in/senthilkumar-murugesan/",
     },
+    {
+      src: require('../assets/speakers/Anubhav.png'),
+      speakerName: "Anubhav Singh",
+      spekerPost: "Co-Founder at Dynopii, GDG Organiser",
+      speakerProfile: "https://www.linkedin.com/in/xprilion/",
+    },
   ]
 
   return (
