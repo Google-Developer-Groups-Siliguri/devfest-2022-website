@@ -20,7 +20,7 @@ export default function Testimonials() {
         className="carousel slide testimonial-carousel"
         data-bs-ride="true"
       >
-        <div className="carousel-indicators">
+        {/* <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
@@ -35,24 +35,24 @@ export default function Testimonials() {
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
-          {/* <button
+          <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="2"
             aria-label="Slide 3"
-          ></button> */}
-        </div>
+          ></button>
+        </div> */}
         <div className="carousel-inner carousel-shadow">
           <div className="carousel-item active">
             <>
-            <div className="testimonial-item">
+              <div className="testimonial-item">
                 <h1>Attended the most innovative and informative events from the Window of Mt Kanchenjunga!</h1>
                 <p>
-                GDG Siliguri has organised the innovative Google DevFest events at SIT where every bits was enjoyable, informative and the energy from both side of Speaker, Organizer Audience have made the GDG more Masala-dar.
-I have enjoyed lot and gain many knowledge for my core area of industry.
+                  GDG Siliguri has organised the innovative Google DevFest events at SIT where every bits was enjoyable, informative and the energy from both side of Speaker, Organizer Audience have made the GDG more Masala-dar.
+                  I have enjoyed lot and gain many knowledge for my core area of industry.
                 </p>
                 <div className="attendee">
-                  <img src={speaker1} alt="" />
+                  {/* <img src={speaker1} alt="" /> */}
                   <div className="attendee-name">
                     <h3>Eshan Chattaraj</h3>
                     <p>Attendee @Devfest’19</p>
@@ -84,10 +84,10 @@ I have enjoyed lot and gain many knowledge for my core area of industry.
               <div className="testimonial-item">
                 <h1>Awesome Experience!</h1>
                 <p>
-                Got to learn a lot from the amazing speakers. I had a lot of fun interacting with other like minded developers from the region and participating in the hackathon! Eagerly waiting for the next Devfesf!
+                  Got to learn a lot from the amazing speakers. I had a lot of fun interacting with other like minded developers from the region and participating in the hackathon! Eagerly waiting for the next Devfesf!
                 </p>
                 <div className="attendee">
-                  <img src={speaker1} alt="" />
+                  {/* <img src={speaker1} alt="" /> */}
                   <div className="attendee-name">
                     <h3>Sahil Saha</h3>
                     <p>Attendee @Devfest’19</p>
@@ -96,7 +96,16 @@ I have enjoyed lot and gain many knowledge for my core area of industry.
               </div>
             </>
           </div>
+
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
       {/* <div className="testimonials">
