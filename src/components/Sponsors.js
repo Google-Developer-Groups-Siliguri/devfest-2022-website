@@ -11,6 +11,7 @@ import dlabs from "../assets/images/SponsorsLogo/dlabs.jpeg";
 import trymenu from "../assets/images/SponsorsLogo/try.png";
 import prosp from "../assets/images/SponsorsLogo/pros.png";
 import ilove from "../assets/images/SponsorsLogo/ilove.png";
+import fg from "../assets/images/community-partners/fg.png";
 import "../stylesheet/Sponsor.css";
 const Sponsors = () => {
   return (
@@ -154,6 +155,20 @@ const Sponsors = () => {
       <div className="container">
         <div className="row">
           <center className="row space-between">
+          <div className="col-sm">
+              <a
+                href="https://www.cyberhelpindia.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="card sponsorcards2 card1">
+                  <img src={fg} className="card-img-top fbimg" alt="..." />
+                  <div className="card-body">
+                    <h6 className="card-title title1">F & B Partner</h6>
+                  </div>
+                </div>
+              </a>
+            </div>
             <div className="col-sm">
               <a
                 href="https://www.cyberhelpindia.com/"
