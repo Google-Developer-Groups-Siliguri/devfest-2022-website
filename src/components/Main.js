@@ -6,7 +6,7 @@ import Footer2 from "../components/Footer2";
 import WhatIsDevFest from "../components/WhatIsDevFest";
 import Speakers from "../components/Speakers";
 import Sponsors from "../components/Sponsors";
-import Testimonials from "../components/Testimonials";
+// import Testimonials from "../components/Testimonials";
 import JoinGdd from "../components/JoinGdg";
 import CommunityPartners from './CommunityPartners';
 import Contact_Map from '../components/Contact-Map';
@@ -19,7 +19,7 @@ export default function main() {
       <Speakers />
       <Sponsors />
       <CommunityPartners />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Faq />
       <JoinGdd />
       <Contact_Map />
