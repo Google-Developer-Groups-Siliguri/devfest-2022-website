@@ -9,20 +9,20 @@ import Sponsors from "../components/Sponsors";
 import Testimonials from "../components/Testimonials";
 import JoinGdd from "../components/JoinGdg";
 import CommunityPartners from './CommunityPartners';
-import Contact_Map from './Contact-Map';
+import Contact_Map from '../components/Contact-Map';
 export default function main() {
   return (
     <div>
       <Navbar active="home" />
       <Hero />
       <WhatIsDevFest />
-      <Speakers/>
+      <Speakers />
       <Sponsors />
       <CommunityPartners />
       <Testimonials />
       <Faq />
       <JoinGdd />
-      <Contact_Map/>
+      <Contact_Map />
       <Footer2 />
     </div>
   )
