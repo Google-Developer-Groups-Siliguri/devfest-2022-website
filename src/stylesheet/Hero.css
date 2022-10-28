@@ -46,6 +46,12 @@
     border-radius: 5px;
 }
 
+.btns:hover {
+    background-color: #6293ea;
+    color: white;
+
+}
+
 .monuments-img {
     width: 100%;
 }
@@ -63,9 +69,10 @@
         display: none;
     }
 }
-@media(max-width:400px){
-    .logo{
-        width:275px;
+
+@media(max-width:400px) {
+    .logo {
+        width: 275px;
         height: 62px;
     }
 }

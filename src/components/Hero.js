@@ -19,7 +19,7 @@ export default function Hero() {
                             <p className="lead-2"><BsCalendarCheck /> 5th &amp; 6th November</p>
                             <p className="lead-3"><MdLocationPin />  Siliguri Institute of Technology</p>
                             <div className="d-grid gap-2 d-md-flex justify-content-md-start my-4">
-                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc33RWi0cYkncSjS6TKcXDWoNj_3O-1halpaxc-SW7l2wkFdA/viewform" target="_blank" type="button" className="btn btn-secondary btns">Register</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc33RWi0cYkncSjS6TKcXDWoNj_3O-1halpaxc-SW7l2wkFdA/viewform" target="_blank" type="button" className="btns">Register</a>
                             </div>
                         </div>
                         <div className="col-lg-5 col-12">
