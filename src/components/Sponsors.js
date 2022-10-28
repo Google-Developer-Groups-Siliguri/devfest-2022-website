@@ -44,7 +44,7 @@ const Sponsors = () => {
               <div className="card sponsorcards card3">
                 <img src={taskade} className="card-img-top img2" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title title3">Taskade</h5>
+                  <h5 className="card-title title3">Silver Sponsor</h5>
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Sponsors = () => {
               <div className="card sponsorcards card3">
                 <img src={assetmantle} className="card-img-top img2" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title title3">Asset Mantle</h5>
+                  <h5 className="card-title title3">Silver Sponsor</h5>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Sponsors = () => {
               <div className="card sponsorcards card3">
                 <img src={kalimpongstore} className="card-img-top img2" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title title3">Himalayas Authentic</h5>
+                  <h5 className="card-title title3">Silver Sponsor</h5>
                 </div>
               </div>
             </div>

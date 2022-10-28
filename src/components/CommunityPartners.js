@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheet/CommunityPartners.css";
 import gdgicon from "../assets/images/gdgicon.png";
+import technext from "../assets/images/community-partners/technext.png";
 const CommunityPartners = () => {
   return (
     <>
@@ -36,7 +37,14 @@ const CommunityPartners = () => {
                   <h5 className="text-muted">Google Developer Student Club</h5>
                   <h6 className="text-muted">Jalpaiguri Government Engineering College</h6>
                 </div>
-              </div> 
+              </div> <center>
+              <div className="col-lg-3 col-md-6 col-12">
+                <div className="partnersbox">
+                  <img src={technext} alt="gdgicon" className="cpimgfix" />
+                  <h5 className="text-muted">Tech Next</h5>
+                  {/* <h6 className="text-muted">Jalpaiguri Government Engineering College</h6> */}
+                </div>
+              </div> </center>
             </div>
             {/* <div className="row">
               <div className="col-sm">
