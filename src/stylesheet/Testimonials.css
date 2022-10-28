@@ -2,8 +2,8 @@
     background: #EDF3FF;
     height: auto;
     min-height: 40rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
     padding-left: 5rem;
     padding-top: 5rem;
 }
@@ -83,7 +83,7 @@
 }
 
 .testimonial-carousel{
-    width: 80%;
+    width: 40%;
     overflow: visible;
     margin-top: 1rem;
     padding-left: 5rem;
@@ -161,7 +161,6 @@
     .testimonials-container{
        display: flex;
        flex-direction: column;
-       gap: 3rem;
        align-items: center;
        padding: 0;
        height: 60vh;
@@ -181,7 +180,7 @@
     }
 
     .testimonials-title{
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .title{
@@ -261,6 +260,7 @@
         height: 55vh;
     }
 }
+
 
 @media only screen and (min-width:481px) and (max-width:820px) {
     .testimonials-container{
