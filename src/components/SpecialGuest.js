@@ -1,6 +1,7 @@
 import React from "react";
 import assetmantle from "../assets/images/assetmantle.png";
 import deeptanshu from "../assets/images/deeptanshu.png";
+import scratch from "../assets/images/scratch.png";
 import "../stylesheet/SpecialGuest.css";
 const SpecialGuest = () => {
   return (
@@ -34,7 +35,9 @@ const SpecialGuest = () => {
             <div className="col-sm">
               <center>
                 <img src={deeptanshu} alt="deepanshu" className="special-speaker-img" />
+                
               </center>
+              <img className="scratch-guest" src={scratch} alt="" />
             </div>
           </div>
         </div>

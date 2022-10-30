@@ -92,7 +92,7 @@ html {
 .schedule-speaker{
     font-size: 18px;
     display: flex;
-    width: 30%;
+    width: max-content;
     align-items: center;
     justify-content: center;
     border: 2px solid #4387F6;

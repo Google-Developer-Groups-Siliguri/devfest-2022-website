@@ -11,6 +11,10 @@
     max-width: 300px;
     max-height: 400px;
 }
+.scratch-guest{
+    margin-left: 22rem;
+    transform: rotate(-10deg);
+}
 @media screen and (max-width: 962px)
 {
     .special-speaker-img
