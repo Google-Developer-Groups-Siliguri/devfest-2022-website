@@ -3,40 +3,44 @@ import Navbar from "../components/NavBar";
 import "../stylesheet/Schedule.css";
 import Footer2 from "./Footer2";
 
-const day1S = false;
+const day1S = true;
 const day2S = false;
 const day1 = [
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
         topic: "Introduction",
+        speaker: "Dhurmil Shah",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
         topic: "Roadmap for Android Developers and getting started with Kotlin",
+        speaker: "Dhurmil Shah",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
-        topic:
-            "Roadmap for ML professionals and building end to end pipelines using ML",
+        topic: "Roadmap for ML professionals and building end to end pipelines using ML",
+        speaker: "Dhurmil Shah",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
         topic: "Introduction",
+        speaker: "Dhurmil Shah",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
         topic: "Roadmap for Android Developers and getting started with Kotlin",
+        speaker: "Dhurmil Shah",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
-        topic:
-            "Roadmap for ML professionals and building end to end pipelines using ML",
+        topic: "Roadmap for ML professionals and building end to end pipelines using ML",
+        speaker: "Dhurmil Shah",
     },
 ];
 
@@ -108,7 +112,14 @@ export default function Schedule() {
                                                 </div>
                                                 <div className="col-md-9 col-8">
                                                     <span className="topic">{item.topic}</span>
+                                                    <div className="col-md-9 col-8">
+                                                        <br></br>
+                                                    </div>
+                                                    <div className="col-md-9 col-8">
+                                                        <span className="topic">{item.speaker}</span>
+                                                    </div>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
