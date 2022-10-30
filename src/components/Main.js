@@ -10,6 +10,7 @@ import Testimonials from "../components/Testimonials";
 import JoinGdd from "../components/JoinGdg";
 import CommunityPartners from './CommunityPartners';
 import Contact_Map from './Contact-Map';
+import SpecialGuest from './SpecialGuest';
 export default function main() {
   return (
     <div>
@@ -17,6 +18,7 @@ export default function main() {
       <Hero />
       <WhatIsDevFest />
       <Speakers/>
+      <SpecialGuest/>
       <Sponsors />
       <CommunityPartners />
       <Testimonials />
