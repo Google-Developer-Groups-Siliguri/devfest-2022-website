@@ -4,45 +4,89 @@ import "../stylesheet/Schedule.css";
 import Footer2 from "./Footer2";
 
 const day1S = true;
-const day2S = false;
+const day2S = true;
 const day1 = [
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
-        topic: "Introduction",
-        speaker: "Dhurmil Shah",
+        duration: "30 Mins",
+        topic: "Code or NoCode for Flutter",
+        speaker: "Dhrumil Shah",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
-        topic: "Roadmap for Android Developers and getting started with Kotlin",
-        speaker: "Dhurmil Shah",
+        duration: "30 Mins",
+        topic: "Demystifying Frontend Development",
+        speaker: "Rohan Prasad",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
-        topic: "Roadmap for ML professionals and building end to end pipelines using ML",
-        speaker: "Dhurmil Shah",
+        duration: "30 Mins",
+        topic: "Getting started with CI with Drone CI",
+        speaker: "Kamesh Sampath",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
-        topic: "Introduction",
-        speaker: "Dhurmil Shah",
+        duration: "30 Mins",
+        topic: "Connected health ecosystem",
+        speaker: "Senthil Kumar",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
-        topic: "Roadmap for Android Developers and getting started with Kotlin",
-        speaker: "Dhurmil Shah",
+        duration: "30 Mins",
+        topic: "Flutter: Computer Vision with ML Kit",
+        speaker: "Bhavik Makwana",
     },
     {
         startTime: "10:45 AM",
         endTime: "11:15 AM",
-        topic: "Roadmap for ML professionals and building end to end pipelines using ML",
-        speaker: "Dhurmil Shah",
+        duration: "30 Mins",
+        topic: "Journey towards multi-cloud architecture",
+        speaker: "Jyoti Mishra",
+    },
+    {
+        startTime: "10:45 AM",
+        endTime: "11:15 AM",
+        duration: "30 Mins",
+        topic: "Finding insights in centuries old photos - A Google Cloud AI Story",
+        speaker: "Anubhav Singh",
     },
 ];
+
+const day2 = [
+    {
+        startTime: "10:45 AM",
+        endTime: "11:15 AM",
+        duration: "30 Mins",
+        topic: "Intel oneAPI and its advantages for HPC",
+        speaker: "Kazi Haque",
+    },
+    {
+        startTime: "10:45 AM",
+        endTime: "11:15 AM",
+        duration: "30 Mins",
+        topic: "Ai Toolkit and SYCL",
+        speaker: "Abhishek Nandy",
+    },
+    {
+        startTime: "10:45 AM",
+        endTime: "11:15 AM",
+        duration: "30 Mins",
+        topic: "Kotlin Koin with Coroutines : A walkthrough on the Asynchronous Programming with Kotlin",
+        speaker: "Rishabh Gupta",
+    },
+    {
+        startTime: "10:45 AM",
+        endTime: "11:15 AM",
+        duration: "30 Mins",
+        topic: "DIDS and InterNFTS - Live session",
+        speaker: "Deepanshu Tripathi",
+    },
+]
 
 export default function Schedule() {
     return (
@@ -107,8 +151,9 @@ export default function Schedule() {
                                         <div className="container">
                                             <div className="row flex-row">
                                                 <div className="col-md-2 col-3 schTime text-end py-2">
-                                                    <p className="startTime">{item.startTime}</p>
-                                                    <span className="endTime">{item.endTime}</span>
+                                                    {/* <p className="startTime">{item.startTime}</p> */}
+                                                    <h2>{item.duration}</h2>
+                                                    {/* <span className="endTime">{item.endTime}</span> */}
                                                 </div>
                                                 <div className="col-md-9 col-8">
                                                     <span className="topic">{item.topic}</span>
@@ -116,10 +161,12 @@ export default function Schedule() {
                                                         <br></br>
                                                     </div>
                                                     <div className="col-md-9 col-8">
-                                                        <span className="topic">{item.speaker}</span>
+                                                        <span className="schedule-speaker">{item.speaker}</span>
+                                                    </div>
+                                                    <div className="col-md-9 col-8">
+                                                        <br></br>
                                                     </div>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -134,7 +181,7 @@ export default function Schedule() {
                                 aria-labelledby="profile-tab"
                                 tabindex="0"
                             >
-                                {day2S ? day1.map((item, key) => (
+                                {day2S ? day2.map((item, key) => (
                                     <div
                                         key={item.id}
                                         className="accordion-item tab-pane fade show "
@@ -143,13 +190,23 @@ export default function Schedule() {
                                         aria-labelledby="home-tab"
                                     >
                                         <div className="container">
-                                            <div className="row">
+                                        <div className="row flex-row">
                                                 <div className="col-md-2 col-3 schTime text-end py-2">
-                                                    <h2>{item.startTime}</h2>
-                                                    <span>{item.endTime}</span>
+                                                    {/* <p className="startTime">{item.startTime}</p> */}
+                                                    <h2>{item.duration}</h2>
+                                                    {/* <span className="endTime">{item.endTime}</span> */}
                                                 </div>
                                                 <div className="col-md-9 col-8">
                                                     <span className="topic">{item.topic}</span>
+                                                    <div className="col-md-9 col-8">
+                                                        <br></br>
+                                                    </div>
+                                                    <div className="col-md-9 col-8">
+                                                        <span className="schedule-speaker">{item.speaker}</span>
+                                                    </div>
+                                                    <div className="col-md-9 col-8">
+                                                        <br></br>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
