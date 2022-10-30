@@ -8,13 +8,32 @@
 {
     width: 100%;
     height: auto;
-    max-width: 300px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 450px;
+    margin-top: 2rem;
 }
-.scratch-guest{
-    margin-left: 22rem;
-    transform: rotate(-10deg);
+
+.guest-arrow{
+    height: max-content;
+    width: 45%;
+    margin-left: 500px;
 }
+
+@media only screen and (min-width:1200px) and (max-width:1399px) {
+    .guest-arrow{
+        margin-left: 380px;
+    }
+    .special-speaker-img{
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .guest-arrow{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 962px)
 {
     .special-speaker-img

@@ -1,15 +1,18 @@
 import React from "react";
 import assetmantle from "../assets/images/assetmantle.png";
 import deeptanshu from "../assets/images/deeptanshu.png";
-import scratch from "../assets/images/scratch.png";
+import arrow from "../assets/images/arrow.png";
 import "../stylesheet/SpecialGuest.css";
 const SpecialGuest = () => {
   return (
     <>
       <section id="special-guest">
         <div className="container">
+        
           <div className="row">
+          
             <div className="col-sm">
+            <img className="guest-arrow" src={arrow} alt="" />
               <h1>Our Special Guest</h1>
               <h3>Deepanshu Tripathi</h3>
               <p>
@@ -34,10 +37,11 @@ const SpecialGuest = () => {
             </div>
             <div className="col-sm">
               <center>
+                <div className="guest-image">
                 <img src={deeptanshu} alt="deepanshu" className="special-speaker-img" />
-                
+                </div>
               </center>
-              <img className="scratch-guest" src={scratch} alt="" />
+              
             </div>
           </div>
         </div>
