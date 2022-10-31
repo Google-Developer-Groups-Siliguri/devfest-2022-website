@@ -133,7 +133,7 @@ const day2 = [
         endTime: "4:30 PM",
         duration: "150 Mins",
         topic: "Workshop - Intel OneAPI with HPC and ML Kit",
-        speaker: "Abhishek Nandy & Kazi Haque",
+        speaker: "Kazi Haque",
     },
     {
         startTime: "02:00 PM",
