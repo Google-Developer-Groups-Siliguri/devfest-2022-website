@@ -119,7 +119,7 @@ const day2 = [
         endTime: "01:00 PM",
         duration: "30 Mins",
         topic: "DIDS and InterNFTS - Live session",
-        speaker: "Deeptanshu Tripathi",
+        speaker: "Deepanshu Tripathi",
     },
     {
         startTime: "01:00 PM",
