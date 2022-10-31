@@ -31,6 +31,14 @@ export default function Team() {
       organiserGithub: "https://github.com/srv09",
       organiserTwitter: "https://twitter.com/SouravD48488780?t=M_h75Zg9PHjh-GK0RvkaCg&s=09",
       organiserLinkedin: "https://www.linkedin.com/in/sourav-das-64227a1a2/",
+    },
+    {
+      src: require("../assets/images/team/Namrata Parbat.jpg"),
+      organiserName: "Namrata Parbat",
+      organiserPost: "Co-Organiser | GDG",
+      organiserGithub: "https://github.com/parbat007",
+      organiserTwitter: " https://mobile.twitter.com/namrataparbat",
+      organiserLinkedin: "https://www.linkedin.com/in/namrata-parbat/",
     }
   ]
 
