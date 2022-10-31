@@ -2,6 +2,7 @@ import React from "react";
 import assetmantle from "../assets/images/assetmantle.png";
 import deeptanshu from "../assets/images/deeptanshu.png";
 import arrow from "../assets/images/arrow.png";
+import redcircle from "../assets/images/redcircle.png";
 import "../stylesheet/SpecialGuest.css";
 const SpecialGuest = () => {
   return (
@@ -25,7 +26,7 @@ const SpecialGuest = () => {
                 />&nbsp;
                 AssetMantle
               </p>
-              <h4>Live Session on DIDS and inter NFTS</h4>
+              <h4><img src={redcircle} width="24px" alt="circle"/>&nbsp;Live Session on DIDS and inter NFTS</h4>
               <p>
               Building Decentralisation Infrastructure at AssetMantle
 About Blockchain distributed applications design and development( tendermint).
