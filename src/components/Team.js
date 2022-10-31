@@ -31,6 +31,14 @@ export default function Team() {
       organiserGithub: "https://github.com/srv09",
       organiserTwitter: "https://twitter.com/SouravD48488780?t=M_h75Zg9PHjh-GK0RvkaCg&s=09",
       organiserLinkedin: "https://www.linkedin.com/in/sourav-das-64227a1a2/",
+    },
+    {
+      src: require("../assets/images/team/Namrata Parbat.jpg"),
+      organiserName: "Namrata Parbat",
+      organiserPost: "Co-Organiser | GDG",
+      organiserGithub: "https://github.com/parbat007",
+      organiserTwitter: " https://mobile.twitter.com/namrataparbat",
+      organiserLinkedin: "https://www.linkedin.com/in/namrata-parbat/",
     }
   ]
 
@@ -59,7 +67,39 @@ export default function Team() {
       memberGithub: "https://github.com/InfamousBolt",
       memberTwitter: "https://www.twitter.com/keshav21681346",
       memberLinkedin: "https://www.linkedin.com/in/keshav-agarwal-b39322192",
+    },{
+      src: require("../assets/images/team/Suvaditya Gupta.jpg"),
+      memberName: "Suvaditya Gupta",
+      memberPost: "Student | CSE - 4th Year",
+      memberGithub: "https://github.com/suvadityagupta",
+      memberTwitter: "https://twitter.com/suv_aditya?t=3fFprqM3AZfcKMD95l2Vxw&s=09",
+      memberLinkedin: "https://www.linkedin.com/in/suvaditya-gupta-6a5286194",
     },
+    {
+      src: require("../assets/images/team/Falguni Sarkar.jpg"),
+      memberName: "Falguni Sarkar",
+      memberPost: "Student | CSE - 4th Year",
+      memberGithub: "https://www.github.com/lostgirljourney",
+      memberTwitter: "https://www.twitter.com/isshefalguni",
+      memberLinkedin: "https://www.linkedin.com/in/falgunisarkar",
+    },
+    {
+      src: require("../assets/images/team/Aritra Kumar Datta Chaudhury.jpeg"),
+      memberName: "Aritra Kumar Datta Chaudhury",
+      memberPost: "Student | CSE - 4th Year",
+      memberGithub: "https://github.com/Aritra995",
+      memberTwitter: "https://twitter.com/Aritra995",
+      memberLinkedin: "https://www.linkedin.com/in/aritra-kumar-datta-chaudhury-9a4a7b194",
+    },
+    {
+      src: require("../assets/images/team/Sayan Malakar.jpg"),
+      memberName: "Sayan Malakar",
+      memberPost: "Student | BA - 2nd Year",
+      memberGithub: "https://github.com/sayan681",
+      memberTwitter: "https://twitter.com/SayanMalakar17",
+      memberLinkedin: "https://www.linkedin.com/in/sayan-malakar-833183221",
+    }
+    ,
     {
       src: require("../assets/images/team/Deep Dhar.jpg"),
       memberName: "Deep Dhar",
@@ -157,14 +197,6 @@ export default function Team() {
       memberLinkedin: "https://www.linkedin.com/in/babin-chakrabarty-598401192",
     },
     {
-      src: require("../assets/images/team/Sayan Malakar.jpg"),
-      memberName: "Sayan Malakar",
-      memberPost: "Student | BA - 2nd Year",
-      memberGithub: "https://github.com/sayan681",
-      memberTwitter: "https://twitter.com/SayanMalakar17",
-      memberLinkedin: "https://www.linkedin.com/in/sayan-malakar-833183221",
-    },
-    {
       src: require("../assets/images/team/Priya Chakraborty.jpg"),
       memberName: "Priya Chakraborty ",
       memberPost: "Student | EE - 3rd Year",
@@ -180,7 +212,8 @@ export default function Team() {
       memberTwitter: "https://twitter.com/IamRoyArijit",
       memberLinkedin: "https://www.linkedin.com/in/arijit-roy-61b01b129",
     },
-  ];
+    
+  ]
 
   return (
     <div>
