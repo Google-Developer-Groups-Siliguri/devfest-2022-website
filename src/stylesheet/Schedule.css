@@ -89,13 +89,22 @@ html {
     font-weight: 400;
 }
 
-.schedule-speaker{
+#schedule-speaker{
     font-size: 18px;
     display: flex;
+    min-width: 200px;
     width: max-content;
     align-items: center;
     justify-content: center;
     border: 2px solid #4387F6;
     border-radius: 50px;
-    padding: 10px;
+    padding: 5px;
 }
+
+@media only screen and (max-width:962px) {
+    #schedule-speakers{
+        min-width:100px;
+    }
+}
+
+
