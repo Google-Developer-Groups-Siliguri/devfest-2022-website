@@ -1,0 +1,12 @@
+/* .footer-logo{
+    -webkit-filter: invert(100%); 
+    filter: invert(100%);
+} */
+#footer-2{
+    background-color: #4387f6!important;
+    color: white;
+}
+.main-footer-bottom-2 a {
+    color: white;
+    font-weight: bold;
+}

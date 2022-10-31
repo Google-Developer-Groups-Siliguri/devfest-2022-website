@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheet/Footer.css";
-import logo from "../assets/images/devfestlogo_small.webp";
+import "../stylesheet/Footer2.css";
+import logo from "../assets/images/transparent logo.png";
 import { FiInstagram } from "react-icons/fi";
 import { BsFacebook } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
@@ -8,11 +9,11 @@ import { BsLinkedin } from "react-icons/bs";
 
 export default function Footer2() {
     return (
-        <div id="footer" className="footer-container">
+        <div id="footer-2" className="footer-container">
             <hr style={{ marginTop: "0px" }} />
             <div className="main-footer">
                 <img className="footer-logo" src={logo} alt="" />
-                <div className="main-footer-bottom row">
+                <div className="main-footer-bottom-2 row">
                     <p className="footer-p col-md-4 col-12">
                         Reach out to us at:{" "}
                         <a href="mailto:gdgsiliguri@gmail.com">
