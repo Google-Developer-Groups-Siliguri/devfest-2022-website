@@ -25,14 +25,10 @@ const SpecialGuest = () => {
                 />&nbsp;
                 AssetMantle
               </p>
+              <h4>Live Session on DIDS and inter NFTS</h4>
               <p>
-                Add Content .... lorem ipsum, DevFests are local tech
-                conferences hosted by Google Developer Groups Each DevFest event
-                is crafted by its local organizers to fit the needs and
-                interests of its local developer community, through hands-on
-                learning experiences, technical talks delivered in local
-                languages by experts, or by simply meeting fellow local
-                developers.
+              Building Decentralisation Infrastructure at AssetMantle
+About Blockchain distributed applications design and development( tendermint).
               </p>
             </div>
             <div className="col-sm">
