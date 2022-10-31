@@ -140,7 +140,7 @@ const day2 = [
         endTime: "4:30 PM",
         duration: "150 Mins",
         topic: "Workshop - Getting started with CI with Drone CI - DevOps",
-        speaker: "Kamesh Sampath",
+        speaker: "Kamesh Sampath ",
     },
     {
         startTime: "02:00 PM",
