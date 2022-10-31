@@ -163,8 +163,23 @@ export default function Team() {
       memberGithub: "https://github.com/sayan681",
       memberTwitter: "https://twitter.com/SayanMalakar17",
       memberLinkedin: "https://www.linkedin.com/in/sayan-malakar-833183221",
-    }
-
+    },
+    {
+      src: require("../assets/images/team/Priya Chakraborty.jpg"),
+      memberName: "Priya Chakraborty ",
+      memberPost: "Student | EE - 3rd Year",
+      memberGithub: "https://github.com/Priyachakraborty",
+      memberTwitter: "https://twitter.com/Primoon2002",
+      memberLinkedin: "https://www.linkedin.com/in/priya-chakraborty-a48940202/",
+    },
+    {
+      src: require("../assets/images/team/Arijit Roy.png"),
+      memberName: "Arijit Roy ",
+      memberPost: "Student | Bsc - 2nd Year",
+      memberGithub: "https://www.github.com/arijitroy2001",
+      memberTwitter: "https://twitter.com/IamRoyArijit",
+      memberLinkedin: "https://www.linkedin.com/in/arijit-roy-61b01b129",
+    },
   ];
 
   return (

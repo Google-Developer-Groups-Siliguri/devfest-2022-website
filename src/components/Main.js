@@ -10,13 +10,15 @@ import Testimonials from "../components/Testimonials";
 import JoinGdd from "../components/JoinGdg";
 import CommunityPartners from './CommunityPartners';
 import Contact_Map from '../components/Contact-Map';
+import SpecialGuest from './SpecialGuest';
 export default function main() {
   return (
     <div>
       <Navbar active="home" />
       <Hero />
       <WhatIsDevFest />
-      <Speakers />
+      <Speakers/>
+      <SpecialGuest/>
       <Sponsors />
       <CommunityPartners />
       <Testimonials />
