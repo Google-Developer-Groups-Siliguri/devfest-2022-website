@@ -31,14 +31,6 @@ export default function Team() {
       organiserGithub: "https://github.com/srv09",
       organiserTwitter: "https://twitter.com/SouravD48488780?t=M_h75Zg9PHjh-GK0RvkaCg&s=09",
       organiserLinkedin: "https://www.linkedin.com/in/sourav-das-64227a1a2/",
-    },
-    {
-      src: require("../assets/images/team/Namrata Parbat.jpg"),
-      organiserName: "Namrata Parbat",
-      organiserPost: "Co-Organiser | GDG",
-      organiserGithub: "https://github.com/parbat007",
-      organiserTwitter: " https://mobile.twitter.com/namrataparbat",
-      organiserLinkedin: "https://www.linkedin.com/in/namrata-parbat/",
     }
   ]
 
@@ -82,6 +74,14 @@ export default function Team() {
       memberGithub: "https://www.github.com/lostgirljourney",
       memberTwitter: "https://www.twitter.com/isshefalguni",
       memberLinkedin: "https://www.linkedin.com/in/falgunisarkar",
+    },
+    {
+      src: require("../assets/images/team/Aniruddha Das.jpg"),
+      memberName: "Aniruddha Das",
+      memberPost: "Student | ECE - 4th Year",
+      memberGithub: "https://github.com/OctoplusNinja",
+      memberTwitter: "https://twitter.com/isthatAniruddha",
+      memberLinkedin: "https://www.linkedin.com/in/aniruddhadas852/",
     },
     {
       src: require("../assets/images/team/Aritra Kumar Datta Chaudhury.jpeg"),
@@ -173,12 +173,28 @@ export default function Team() {
       memberLinkedin: "https://www.linkedin.com/in/shreya-roy-3147881b7/",
     },
     {
+      src: require("../assets/images/team/Gourab Deb.jpg"),
+      memberName: "Gourab Deb",
+      memberPost: "Student | CSE - 3th Year",
+      memberGithub: "https://github.com/Gourabdeb1619",
+      memberTwitter: "https://twitter.com/gourabd14590200",
+      memberLinkedin: "https://www.linkedin.com/in/gourab-deb-b77843142/",
+    },
+    {
       src: require("../assets/images/team/Mehnaz Yeasmin.jpg"),
       memberName: "Mehnaz Yeasmin",
       memberPost: "Student | CSE - 3th Year",
       memberGithub: "https://github.com/Mehnaz14",
       memberTwitter: "https://twitter.com/yeasmin_mehnaz?t=CXPGmio1UbJpWVhF8lS4KA&s=09",
       memberLinkedin: "https://www.linkedin.com/in/mehnaz-yeasmin-724848200",
+    },
+    {
+      src: require("../assets/images/team/Tirtha Bhattacharjee.jpg"),
+      memberName: "Tirtha Bhattacharjee",
+      memberPost: "Student | ECE - 3th Year",
+      memberGithub: "https://github.com/Tirtha2001",
+      memberTwitter: "https://twitter.com/happy_filter_",
+      memberLinkedin: "https://www.linkedin.com/in/tirtha-bhattacharjee-212b37200/",
     },
     {
       src: require("../assets/images/team/Samadreeta Mukherjee.jpg"),
